@@ -100,6 +100,4 @@ const PieCharts = React.memo( ({data, title, colors}) => {
     )
 })
 
-PieCharts.displayName = 'PieCharts'
-
 export default PieCharts;

@@ -4459,7 +4459,7 @@ const PageData = () => {
 
     useEffect(() => {
         handleSearch()
-    })
+    }, [])
 
     const handleSearch = () => {
         const filteredDatas = filter(year, selectedHospitals, selectedDiseases);
