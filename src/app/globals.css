@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #F5F5F5;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* --background: #0a0a0a; */
+    --foreground: #ededed;
+  }
+}
+
+@font-face {
+  font-family: 'prompt';
+  src: url('/fonts/PromptRegular.ttf') format('truetype');
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'prompt', sans-serif;
+}
+
+.menu-center {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.menu-center a {
+  padding: 0 15px;
+  font-size: 16px;
+  color: #007b7b;
+}
+
+.menu-center a:hover {
+  color: #007b7b;
+}
