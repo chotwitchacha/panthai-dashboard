@@ -1,22 +1,22 @@
 import React, { useState } from 'react';
 
 const column = [
-    'เดือน', 'จำนวนผู้ป่วย', 'จำนวนแพทย์ผู้ใช้งาน', 'จำนวนการเข้ารับบริการ (ราย)'
+    'เดือน', 'จำนวนการเข้ารับบริการ', 'จำนวนผู้ป่วย', 'จำนวนแพทย์ผู้ใช้งาน'
 ]
 
 const TableDetail = ({ data }) => {
     const [currentPage, setCurrentPage] = useState(1);
     const rowsPerPage = 6;
-
+    console.log("data", data)
     const indexOfLastRow = currentPage * rowsPerPage;
     const indexOfFirstRow = indexOfLastRow - rowsPerPage;
-    const currentRows = data.slice(indexOfFirstRow, indexOfLastRow);
-    const totalPages = Math.ceil(data.length / rowsPerPage);
+    const currentRows = data && data.length > 0 ? data.slice(indexOfFirstRow, indexOfLastRow) : []
+    const totalPages = data ? Math.ceil(data.length / rowsPerPage) : 1
 
     const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
     return (
-        <div className="p-4">
+        <div className="p-4 overflow-y-auto">
             <table className="w-full border rounded-lg overflow-hidden">
                 <thead>
                     <tr className="bg-gray-200 xl:text-[16px] lg:text-[15px] md:text-[15px] sm:text-[14px] text-[10px] text-center h-10">
@@ -29,9 +29,9 @@ const TableDetail = ({ data }) => {
                     {currentRows.map((row, index) => (
                         <tr key={index} className="xl:text-[16px] lg:text-[15px] md:text-[15px] sm:text-[14px] text-[10px] h-11">
                             <td className="text-start p-2 border-b">{row.name}</td>
+                            <td className="text-center p-2 border-b">{new Intl.NumberFormat().format(row.จำนวนการเข้ารับบริการ)}</td>
                             <td className="text-center p-2 border-b">{new Intl.NumberFormat().format(row.จำนวนผู้ป่วย)}</td>
                             <td className="text-center p-2 border-b">{new Intl.NumberFormat().format(row.จำนวนแพทย์ผู้ใช้งาน)}</td>
-                            <td className="text-center p-2 border-b">{new Intl.NumberFormat().format(row.จำนวนการเข้ารับบริการ)}</td>
                         </tr>
                     ))}
                 </tbody>

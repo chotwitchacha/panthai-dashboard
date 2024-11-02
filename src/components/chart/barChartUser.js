@@ -34,7 +34,7 @@ const BarChartsUser = ({ data }) => {
         )
     }
 
-    const chartWidth = screenSize.width >= 1024 ? screenSize.width / 2.5 : screenSize.width - 100;
+    const chartWidth = screenSize.width >= 1200 ? screenSize.width / 2.5 : screenSize.width - 100;
 
     return (
         <ResponsiveContainer width="100%" height={350}>

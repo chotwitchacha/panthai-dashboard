@@ -4,6 +4,17 @@ import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import dayjs from 'dayjs';
+import { styled } from '@mui/material/styles';
+
+const CustomDatePicker = styled(DatePicker)({
+    '& .MuiPickersYear-yearButton.Mui-selected': {
+        backgroundColor: '#4CAF50', // สีพื้นหลังเมื่อปีถูกเลือก
+        color: '#FFFFFF', // สีตัวอักษรเมื่อปีถูกเลือก
+    },
+    '& .MuiPickersYear-yearButton.Mui-selected:hover': {
+        backgroundColor: '#388E3C', // สีเมื่อ hover บนปีที่ถูกเลือก
+    },
+});
 
 class NewAdapterDayjs extends AdapterDayjs {
     constructor({ locale, formats }) {
@@ -22,8 +33,8 @@ class NewAdapterDayjs extends AdapterDayjs {
     };
 }
 
-const YearPicker = ({onChange}) => {
-    const currentMonth = dayjs().month(); 
+const YearPicker = ({ onChange, height }) => {
+    const currentMonth = dayjs().month();
     const initialYear = currentMonth >= 9 ? dayjs().add(1, 'year') : dayjs();
     const [year, setYear] = useState(initialYear);
 
@@ -42,7 +53,7 @@ const YearPicker = ({onChange}) => {
     return (
         <LocalizationProvider dateAdapter={NewAdapterDayjs} adapterLocale='th'>
             <DemoContainer components={['DatePicker']}>
-                <DatePicker
+                <CustomDatePicker
                     label="ค้นหาด้วย ปีงบประมาณ"
                     value={year}
                     onChange={onChanged}
@@ -52,15 +63,18 @@ const YearPicker = ({onChange}) => {
                             fullWidth: true,
                             placeholder: "ค้นหาด้วย ปี",
                             sx: {
-                                height: '56px', // ความสูงเท่ากัน
+                                height: height ? height : '56px', // ความสูงเท่ากัน
                                 '& .MuiInputBase-root': {
-                                  height: '100%', 
-                                  padding: '0 14px',
+                                    height: '100%',
+                                    padding: '0 14px',
                                 },
-                              },
+                                // '& .Mui-focused': {
+                                //     color: '#2B7880', // กำหนดสีข้อความเมื่อ focus
+                                //     borderColor: '#33333', // กำหนดสีขอบเมื่อ focus
+                                // },
+                            },
                         },
                     }}
-
                 />
             </DemoContainer>
         </LocalizationProvider>

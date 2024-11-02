@@ -2,22 +2,16 @@
 import React, { useState } from 'react';
 import Image from "next/image";
 import Link from 'next/link';
-import { useMediaQuery } from 'react-responsive';
-import { AppBar, Toolbar, IconButton, Drawer, List, ListItem, ListItemText } from '@mui/material';
+import { AppBar, Toolbar, IconButton, Drawer, List, ListItem, ListItemText, useMediaQuery, useTheme } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 
 const Topbar = ({ children }) => {
+    const theme = useTheme();
     const [drawerOpen, setDrawerOpen] = useState(false);
+    const isMobile = useMediaQuery(theme.breakpoints.down("md"));
 
-    const isMobile = useMediaQuery({ maxWidth: 767 });
-    const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1023 });
-    const isDesktop = useMediaQuery({ minWidth: 1024 });
-
-    const toggleDrawer = (open) => (event) => {
-        if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
-            return;
-        }
-        setDrawerOpen(open);
+    const toggleDrawer = (boo) => {
+        setDrawerOpen(boo)
     };
 
     const menuItems = (
@@ -26,6 +20,7 @@ const Topbar = ({ children }) => {
             <Link href="/" className='text-[10px] sm:text-base m-2'>Chatbot</Link>
         </div>
     );
+
 
     return (
         <div>
@@ -44,7 +39,7 @@ const Topbar = ({ children }) => {
 
                     <div className='flex items-center'>
                         {isMobile ? (
-                            <IconButton onClick={toggleDrawer(true)} edge="end" className="text-black ml-4">
+                            <IconButton onClick={() => toggleDrawer(true)} edge="end" className="text-black ml-4">
                                 <MenuIcon />
                             </IconButton>
                         ) : (
@@ -65,8 +60,8 @@ const Topbar = ({ children }) => {
                 </div>
             </AppBar>
 
-            <Drawer anchor='right' open={drawerOpen} onClose={toggleDrawer(false)}>
-                <List onClick={toggleDrawer(false)} onKeyDown={toggleDrawer(false)}>
+            <Drawer anchor='right' open={drawerOpen} onClose={() => toggleDrawer(false)}>
+                <List>
                     <ListItem>
                         <Image
                             src="/images/doctor.png"
@@ -79,11 +74,11 @@ const Topbar = ({ children }) => {
                             แพทย์หญิง แผนไทย ใจดี
                         </span>
                     </ListItem>
-                    <ListItem button={true} component={Link} href="/ai-doctor">
-                        <ListItemText primary="Ai Doctor" />
+                    <ListItem>
+                        <Link href="/ai-doctor">Ai Doctor</Link>
                     </ListItem>
-                    <ListItem button={true} component={Link} href="/">
-                        <ListItemText primary="Chatbot" />
+                    <ListItem >
+                        <Link href="/" >Chatbot</Link>
                     </ListItem>
                 </List>
             </Drawer>
