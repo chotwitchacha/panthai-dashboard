@@ -3,6 +3,9 @@ const nextConfig = {
     compiler: {
         styledComponents: true,
     },
+    optimizeCss: false, 
+    enableBabelRuntime: true, 
 };
 
 export default nextConfig;
+
