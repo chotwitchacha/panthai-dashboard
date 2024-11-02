@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 
 
 
-const PieCharts = React.memo( ({data, title, colors}) => {
+const PieCharts = ({data, title, colors}) => {
     const [screenSize, setScreenSize] = useState({
       width: 0,
       height: 0,
@@ -98,6 +98,6 @@ const PieCharts = React.memo( ({data, title, colors}) => {
                 </PieChart>
             </ResponsiveContainer>
     )
-})
+}
 
-export default PieCharts;
+export default React.memo(PieCharts);
