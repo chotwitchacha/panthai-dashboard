@@ -4457,6 +4457,95 @@ const PageData = () => {
     const [year, setYear] = useState(2568)
     let previousSelectedHospitals = null;
 
+    useEffect(() => {
+        handleSearch()
+    },[])
+
+    const handleSearch = () => {
+        const filteredDatas = filter(year, selectedHospitals, selectedDiseases);
+        setDataHospitals(filteredDatas)
+        
+
+        if (JSON.stringify(selectedHospitals) !== JSON.stringify(previousSelectedHospitals)) {
+            previousSelectedHospitals = selectedHospitals;
+            const aggregatedDiseases = {};
+
+            const diseases = filteredDatas ? filteredDatas.flatMap(item => item.diseases) : [];
+            diseases.forEach(disease => {
+                // ตรวจสอบว่าโรคนี้อยู่ใน aggregatedDiseases หรือไม่
+                if (!aggregatedDiseases[disease.name]) {
+                    aggregatedDiseases[disease.name] = {
+                        name: disease.name, // เพิ่มชื่อโรค
+                        value: 0, // เริ่มต้นค่า value เป็น 0
+                        gender: [], // เริ่มต้นการรวมกลุ่มเพศใหม่
+                        age: []     // เริ่มต้นการรวมกลุ่มอายุใหม่
+                    };
+                }
+    
+                aggregatedDiseases[disease.name].value += disease.value;
+                
+                if (selectedDiseases.length > 1) {
+                    const ageData = diseases.flatMap(item => item.age);
+                    const genderData = diseases.flatMap(item => item.gender);
+
+                    const aggregatedAges = ageData.reduce((acc, ageGroup) => {
+                        const existingAgeGroup = acc.find(a => a.name === ageGroup.name);
+                        if (existingAgeGroup) {
+                            existingAgeGroup.patient += ageGroup.patient;
+                        } else {
+                            acc.push({ ...ageGroup });
+                        }
+                        return acc;
+                    }, []);
+                    setDataAges(aggregatedAges)
+
+                    const aggregatedGender = genderData.reduce((acc, genderGroup) => {
+                        const existingGenderGroup = acc.find(a => a.name === genderGroup.name);
+                        if (existingGenderGroup) {
+                            existingGenderGroup.value += genderGroup.value;
+                        } else {
+                            acc.push({ ...genderGroup });
+                        }
+                        return acc;
+                    }, []);
+                    setDataGenders(aggregatedGender)
+                } else {
+                    // รวมจำนวนผู้ป่วยตามเพศ
+                    disease.gender.forEach(genderGroup => {
+                        const existingGenderGroup = aggregatedDiseases[disease.name].gender.find(a => a.name === genderGroup.name);
+                        if (existingGenderGroup) {
+                            existingGenderGroup.value += genderGroup.value; // รวมจำนวนผู้ป่วย
+                        } else {
+                            aggregatedDiseases[disease.name].gender.push({ ...genderGroup }); // เพิ่มกลุ่มเพศใหม่
+                        }
+                    });
+        
+                    // รวมจำนวนผู้ป่วยตามช่วงอายุ (ถ้าต้องการ)
+                    disease.age.forEach(ageGroup => {
+                        const existingAgeGroup = aggregatedDiseases[disease.name].age.find(a => a.name === ageGroup.name);
+                        if (existingAgeGroup) {
+                            existingAgeGroup.patient += ageGroup.patient; // รวมจำนวนผู้ป่วย
+                        } else {
+                            aggregatedDiseases[disease.name].age.push({ ...ageGroup }); // เพิ่มกลุ่มอายุใหม่
+                        }
+                    });
+
+                    const result = Object.values(aggregatedDiseases)
+                    setDataAges(result.flatMap(item => item.age))
+                    setDataGenders(result.flatMap(item => item.gender))
+                }
+
+            });
+            
+            const resultArray = Object.values(aggregatedDiseases)
+            
+            setDataDiseases(resultArray)
+            return resultArray;
+        } else {
+            return; 
+        }
+    }
+
     const filter = (year, hospitalNames, diseases) => {
         return newData[year]?.map(hospitalData => {
             const hospitalMatch = hospitalNames.includes(hospitalData.hospital);
@@ -4474,84 +4563,6 @@ const PageData = () => {
             }
         }).filter(data => data !== undefined);
     };
-
-    const handleSearch = () => {
-        const filteredDatas = filter(year, selectedHospitals, selectedDiseases);
-        setDataHospitals(filteredDatas);
-        
-        if (JSON.stringify(selectedHospitals) !== JSON.stringify(previousSelectedHospitals)) {
-            previousSelectedHospitals = selectedHospitals;
-            const aggregatedDiseases = {};
-            const diseases = filteredDatas ? filteredDatas.flatMap(item => item.diseases) : [];
-
-            diseases.forEach(disease => {
-                if (!aggregatedDiseases[disease.name]) {
-                    aggregatedDiseases[disease.name] = {
-                        name: disease.name,
-                        value: 0,
-                        gender: [],
-                        age: []
-                    };
-                }
-    
-                aggregatedDiseases[disease.name].value += disease.value;
-
-                if (selectedDiseases.length > 1) {
-                    const ageData = diseases.flatMap(item => item.age);
-                    const genderData = diseases.flatMap(item => item.gender);
-
-                    const aggregatedAges = ageData.reduce((acc, ageGroup) => {
-                        const existingAgeGroup = acc.find(a => a.name === ageGroup.name);
-                        if (existingAgeGroup) {
-                            existingAgeGroup.patient += ageGroup.patient;
-                        } else {
-                            acc.push({ ...ageGroup });
-                        }
-                        return acc;
-                    }, []);
-                    setDataAges(aggregatedAges);
-
-                    const aggregatedGender = genderData.reduce((acc, genderGroup) => {
-                        const existingGenderGroup = acc.find(a => a.name === genderGroup.name);
-                        if (existingGenderGroup) {
-                            existingGenderGroup.value += genderGroup.value;
-                        } else {
-                            acc.push({ ...genderGroup });
-                        }
-                        return acc;
-                    }, []);
-                    setDataGenders(aggregatedGender);
-                } else {
-                    disease.gender.forEach(genderGroup => {
-                        const existingGenderGroup = aggregatedDiseases[disease.name].gender.find(a => a.name === genderGroup.name);
-                        if (existingGenderGroup) {
-                            existingGenderGroup.value += genderGroup.value;
-                        } else {
-                            aggregatedDiseases[disease.name].gender.push({ ...genderGroup });
-                        }
-                    });
-        
-                    disease.age.forEach(ageGroup => {
-                        const existingAgeGroup = aggregatedDiseases[disease.name].age.find(a => a.name === ageGroup.name);
-                        if (existingAgeGroup) {
-                            existingAgeGroup.patient += ageGroup.patient;
-                        } else {
-                            aggregatedDiseases[disease.name].age.push({ ...ageGroup });
-                        }
-                    });
-
-                    const result = Object.values(aggregatedDiseases);
-                    setDataDiseases(result);
-                    setDataGenders(result[0]?.gender || []);
-                    setDataAges(result[0]?.age || []);
-                }
-            });
-        }
-    };
-
-    useEffect(() => {
-        handleSearch();
-    }, []);
 
 
     return (
