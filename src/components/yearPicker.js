@@ -67,14 +67,42 @@ const YearPicker = ({ onChange, height }) => {
                                 '& .MuiInputBase-root': {
                                     height: '100%',
                                     padding: '0 14px',
+                                    '&:hover fieldset': {
+                                        borderColor: '#23B0BA', // สี border เมื่อ hover
+                                    },
+                                    '&.Mui-focused fieldset': {
+                                        borderColor: '#23B0BA', // สี border เมื่อ focus
+                                    },
                                 },
-                                // '& .Mui-focused': {
-                                //     color: '#2B7880', // กำหนดสีข้อความเมื่อ focus
-                                //     borderColor: '#33333', // กำหนดสีขอบเมื่อ focus
-                                // },
+                                '& .MuiInputLabel-root': {
+                                    color: 'rgba(0, 0, 0, 0.6)', // สีของ label ปกติ
+                                    '&.Mui-focused': {
+                                        color: '#23B0BA', // สีของ label เมื่อ focus
+                                    },
+                                },
                             },
                         },
-                    }}
+                        yearButton: {
+                            sx: {
+                                '&.Mui-selected': {
+                                    color: 'rgb(255, 255, 255)', // สีตัวอักษรเมื่อเลือก
+                                    backgroundColor: '#23B0BA', // สีพื้นหลังเมื่อเลือก
+                                },
+                                '&:hover': {
+                                    backgroundColor: '#23B0BA', // สีพื้นหลังเมื่อ hover
+                                    color: 'white'
+                                },
+                                '&.Mui-selected:hover': {
+                                    backgroundColor: '#23B0BA', // สีพื้นหลังเมื่อ hover บนปุ่มที่เลือก
+                                },
+                                '&.Mui-selected:focus': {
+                                    outline: '2px solid #23B0BA', // เส้นขอบเมื่อ focus
+                                    backgroundColor: '#23B0BA', // สีพื้นหลังเมื่อ focus
+                                },
+                            }
+                        }
+                    }
+                    }
                 />
             </DemoContainer>
         </LocalizationProvider>

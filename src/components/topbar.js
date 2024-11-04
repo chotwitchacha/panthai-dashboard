@@ -2,8 +2,9 @@
 import React, { useState } from 'react';
 import Image from "next/image";
 import Link from 'next/link';
-import { AppBar, Toolbar, IconButton, Drawer, List, ListItem, ListItemText, useMediaQuery, useTheme } from '@mui/material';
+import { AppBar, Toolbar, IconButton, Drawer, List, ListItem, ListItemText, useMediaQuery, useTheme, Tooltip } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
+import { ExitToAppRounded } from '@mui/icons-material';
 
 const Topbar = ({ children }) => {
     const theme = useTheme();
@@ -49,11 +50,14 @@ const Topbar = ({ children }) => {
                                     alt="doctor"
                                     width={40}
                                     height={40}
-                                    className="rounded-full mt-4"
+                                    className="rounded-full"
                                 />
-                                <span className="ml-2 mr-12 mt-5 text-[8px] sm:text-base text-[#333]">
+                                <span className="ml-2 mr-2 text-[8px] sm:text-base text-[#333]">
                                     แพทย์หญิง แผนไทย ใจดี
                                 </span>
+                                <Tooltip title='ย้อนกลับ'>
+                                    <ExitToAppRounded className='text-black mr-6'/>
+                                </Tooltip>
                             </>
                         )}
                     </div>
@@ -79,6 +83,9 @@ const Topbar = ({ children }) => {
                     </ListItem>
                     <ListItem >
                         <Link href="/" >Chatbot</Link>
+                    </ListItem>
+                    <ListItem >
+                        <Link href="/" >ย้อนกลับ</Link>
                     </ListItem>
                 </List>
             </Drawer>

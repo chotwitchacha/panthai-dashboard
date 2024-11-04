@@ -22,11 +22,12 @@ const BarChartes = ({data, colors}) => {
     }, []);
 
     const renderCustomizedLabel = ({x, y, width, height, value}) => {
-        const radius = 5;
+        const radius = 10;
         const newValue = new Intl.NumberFormat().format(value)
+        const angle = -45;
         return(
-            <g>
-                <text className='text-xs md:text-base' x={x + width / 2} y={y - radius} fill='' textAnchor='middle' dominantBaseline='middle'>
+            <g transform={`translate(${x + width / 2}, ${y - radius})`}>
+                <text className='md:text-base sm:text-xs' transform={`rotate(${angle})`} fill='' textAnchor='middle' dominantBaseline='middle'>
                     {newValue}
                 </text>
             </g>

@@ -23,7 +23,7 @@ const dataGender = [
 ]
 
 const dataAge = [
-    { name: "น้อยกว่า 20", patient: 138 },
+    { name: "< 20", patient: 138 },
     { name: "20- 24", patient: 178 },
     { name: "25 - 29", patient: 122 },
     { name: "30 - 34", patient: 68 },
@@ -32,7 +32,7 @@ const dataAge = [
     { name: "45 - 49", patient: 402 },
     { name: "50 - 54", patient: 325 },
     { name: "55 - 59", patient: 448 },
-    { name: "มากกว่า 60", patient: 372 },
+    { name: "> 60", patient: 372 },
 ]
 
 const dataHospital = [
@@ -69,7 +69,7 @@ const newData = {
                         { name: "ชาย", value: 38 },
                     ], 
                     age: [
-                        { name: "น้อยกว่า 20", patient: 9 },
+                        { name: "< 20", patient: 9 },
                         { name: "20- 24", patient: 10 },
                         { name: "25 - 29", patient: 9 },
                         { name: "30 - 34", patient: 13 },
@@ -78,14 +78,14 @@ const newData = {
                         { name: "45 - 49", patient: 6 },
                         { name: "50 - 54", patient: 5},
                         { name: "55 - 59", patient: 10 },
-                        { name: "มากกว่า 60", patient: 16 }] 
+                        { name: "> 60", patient: 16 }] 
                 },
                 { name: "กลุ่มโรคโลหิตระดูสตรี", value: 56, 
                     gender: [
                         { name: "หญิง", value: 56 },
                         { name: "ชาย", value: 0 }],  
                     age: [
-                        { name: "น้อยกว่า 20", patient: 3 },
+                        { name: "< 20", patient: 3 },
                         { name: "20- 24", patient: 6 },
                         { name: "25 - 29", patient: 2 },
                         { name: "30 - 34", patient: 4 },
@@ -94,14 +94,14 @@ const newData = {
                         { name: "45 - 49", patient: 8 },
                         { name: "50 - 54", patient: 6 },
                         { name: "55 - 59", patient: 8 },
-                        { name: "มากกว่า 60", patient: 9 }] 
+                        { name: "> 60", patient: 9 }] 
                 },
                 { name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 100,
                     gender: [
                         { name: "หญิง", value: 50 },
                         { name: "ชาย", value: 50 }],  
                     age: [
-                        { name: "น้อยกว่า 20", patient: 10 },
+                        { name: "< 20", patient: 10 },
                         { name: "20- 24", patient: 1 },
                         { name: "25 - 29", patient: 15 },
                         { name: "30 - 34", patient: 3 },
@@ -110,14 +110,14 @@ const newData = {
                         { name: "45 - 49", patient: 9 },
                         { name: "50 - 54", patient: 10 },
                         { name: "55 - 59", patient: 19 },
-                        { name: "มากกว่า 60", patient: 7 }] 
+                        { name: "> 60", patient: 7 }] 
                 },
                 { name: "กลุ่มอาการผดผื่น", value: 93,
                     gender: [
                         { name: "หญิง", value: 53 },
                         { name: "ชาย", value: 40 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 13 },
+                        { name: "< 20", patient: 13 },
                         { name: "20- 24", patient: 9 },
                         { name: "25 - 29", patient: 12 },
                         { name: "30 - 34", patient:9 },
@@ -126,14 +126,14 @@ const newData = {
                         { name: "45 - 49", patient: 8 },
                         { name: "50 - 54", patient: 4 },
                         { name: "55 - 59", patient: 15 },
-                        { name: "มากกว่า 60", patient: 6 }]
+                        { name: "> 60", patient: 6 }]
                 },
                 { name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 97,
                     gender: [
                         { name: "หญิง", value: 55 },
                         { name: "ชาย", value: 42 }],  
                     age: [
-                        { name: "น้อยกว่า 20", patient: 1 },
+                        { name: "< 20", patient: 1 },
                         { name: "20- 24", patient: 14 },
                         { name: "25 - 29", patient: 6 },
                         { name: "30 - 34", patient: 14 },
@@ -142,7 +142,7 @@ const newData = {
                         { name: "45 - 49", patient: 13 },
                         { name: "50 - 54", patient: 6 },
                         { name: "55 - 59", patient: 9 },
-                        { name: "มากกว่า 60", patient: 13 }] }
+                        { name: "> 60", patient: 13 }] }
                 ]
         },
         {
@@ -156,7 +156,7 @@ const newData = {
                         { name: "หญิง", value: 43 },
                         { name: "ชาย", value: 58 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 19 },
+                        { name: "< 20", patient: 19 },
                         { name: "20- 24", patient: 5 },
                         { name: "25 - 29", patient: 12 },
                         { name: "30 - 34", patient: 12 },
@@ -165,14 +165,14 @@ const newData = {
                         { name: "45 - 49", patient: 1 },
                         { name: "50 - 54", patient: 7 },
                         { name: "55 - 59", patient: 7 },
-                        { name: "มากกว่า 60", patient: 10 }] 
+                        { name: "> 60", patient: 10 }] 
                 },
                 { name: "กลุ่มโรคโลหิตระดูสตรี", value: 63,
                     gender: [
                         { name: "หญิง", value: 63 },
                         { name: "ชาย", value: 0 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 10 },
+                        { name: "< 20", patient: 10 },
                         { name: "20- 24", patient: 6 },
                         { name: "25 - 29", patient: 5 },
                         { name: "30 - 34", patient: 9 },
@@ -181,14 +181,14 @@ const newData = {
                         { name: "45 - 49", patient: 7 },
                         { name: "50 - 54", patient: 3 },
                         { name: "55 - 59", patient: 7 },
-                        { name: "มากกว่า 60", patient: 3 }] 
+                        { name: "> 60", patient: 3 }] 
                 },
                 { name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 94, 
                     gender: [
                         { name: "หญิง", value: 35 },
                         { name: "ชาย", value: 59 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 10 },
+                        { name: "< 20", patient: 10 },
                         { name: "20- 24", patient: 9 },
                         { name: "25 - 29", patient: 14 },
                         { name: "30 - 34", patient: 5 },
@@ -197,13 +197,13 @@ const newData = {
                         { name: "45 - 49", patient: 6 },
                         { name: "50 - 54", patient: 5 },
                         { name: "55 - 59", patient: 12 },
-                        { name: "มากกว่า 60", patient: 12 }] },
+                        { name: "> 60", patient: 12 }] },
                 { name: "กลุ่มอาการผดผื่น", value: 114, 
                     gender: [
                         { name: "หญิง", value: 59 },
                         { name: "ชาย", value: 55 }],  
                     age: [
-                        { name: "น้อยกว่า 20", patient: 10 },
+                        { name: "< 20", patient: 10 },
                         { name: "20- 24", patient: 12 },
                         { name: "25 - 29", patient: 12 },
                         { name: "30 - 34", patient: 8 },
@@ -212,13 +212,13 @@ const newData = {
                         { name: "45 - 49", patient: 11 },
                         { name: "50 - 54", patient: 20 },
                         { name: "55 - 59", patient: 7 },
-                        { name: "มากกว่า 60", patient: 11 }] },
+                        { name: "> 60", patient: 11 }] },
                 { name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 89, 
                     gender: [
                         { name: "หญิง", value: 51 },
                         { name: "ชาย", value: 38 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 5 },
+                        { name: "< 20", patient: 5 },
                         { name: "20- 24", patient: 13 },
                         { name: "25 - 29", patient: 15 },
                         { name: "30 - 34", patient: 9 },
@@ -227,7 +227,7 @@ const newData = {
                         { name: "45 - 49", patient: 8 },
                         { name: "50 - 54", patient: 12 },
                         { name: "55 - 59", patient: 8 },
-                        { name: "มากกว่า 60", patient: 3 }] },]
+                        { name: "> 60", patient: 3 }] },]
         },
         {
             index: 3,
@@ -240,7 +240,7 @@ const newData = {
                         { name: "หญิง", value: 50 },
                         { name: "ชาย", value: 38 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 13 },
+                        { name: "< 20", patient: 13 },
                         { name: "20- 24", patient: 6 },
                         { name: "25 - 29", patient: 9 },
                         { name: "30 - 34", patient: 4 },
@@ -249,14 +249,14 @@ const newData = {
                         { name: "45 - 49", patient: 9 },
                         { name: "50 - 54", patient: 7},
                         { name: "55 - 59", patient: 13 },
-                        { name: "มากกว่า 60", patient: 12 }] 
+                        { name: "> 60", patient: 12 }] 
                 },
                 { name: "กลุ่มโรคโลหิตระดูสตรี", value: 52,
                     gender: [
                         { name: "หญิง", value: 52 },
                         { name: "ชาย", value: 0 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 6 },
+                        { name: "< 20", patient: 6 },
                         { name: "20- 24", patient: 1 },
                         { name: "25 - 29", patient: 2 },
                         { name: "30 - 34", patient: 9 },
@@ -265,14 +265,14 @@ const newData = {
                         { name: "45 - 49", patient: 1 },
                         { name: "50 - 54", patient: 7 },
                         { name: "55 - 59", patient: 7 },
-                        { name: "มากกว่า 60", patient: 7 }] 
+                        { name: "> 60", patient: 7 }] 
                 },
                 { name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 103, 
                     gender: [
                         { name: "หญิง", value: 48 },
                         { name: "ชาย", value: 55 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 5 },
+                        { name: "< 20", patient: 5 },
                         { name: "20- 24", patient: 12 },
                         { name: "25 - 29", patient: 10 },
                         { name: "30 - 34", patient: 8 },
@@ -281,14 +281,14 @@ const newData = {
                         { name: "45 - 49", patient: 15 },
                         { name: "50 - 54", patient: 7 },
                         { name: "55 - 59", patient: 19 },
-                        { name: "มากกว่า 60", patient: 9 }] 
+                        { name: "> 60", patient: 9 }] 
                 },
                 { name: "กลุ่มอาการผดผื่น", value: 103, 
                     gender: [
                         { name: "หญิง", value: 46 },
                         { name: "ชาย", value: 57 }],  
                     age: [
-                        { name: "น้อยกว่า 20", patient: 10 },
+                        { name: "< 20", patient: 10 },
                         { name: "20- 24", patient: 1 },
                         { name: "25 - 29", patient: 16 },
                         { name: "30 - 34", patient: 11 },
@@ -297,14 +297,14 @@ const newData = {
                         { name: "45 - 49", patient: 12 },
                         { name: "50 - 54", patient: 18 },
                         { name: "55 - 59", patient: 8 },
-                        { name: "มากกว่า 60", patient: 8 }] 
+                        { name: "> 60", patient: 8 }] 
                 },
                 { name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 108, 
                     gender: [
                         { name: "หญิง", value: 60 },
                         { name: "ชาย", value: 48 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 13 },
+                        { name: "< 20", patient: 13 },
                         { name: "20- 24", patient: 14 },
                         { name: "25 - 29", patient: 8 },
                         { name: "30 - 34", patient: 11 },
@@ -313,7 +313,7 @@ const newData = {
                         { name: "45 - 49", patient: 7 },
                         { name: "50 - 54", patient: 16 },
                         { name: "55 - 59", patient: 15 },
-                        { name: "มากกว่า 60", patient: 6 }] },]
+                        { name: "> 60", patient: 6 }] },]
         },
         {
             index: 4,
@@ -326,7 +326,7 @@ const newData = {
                         { name: "หญิง", value: 42 },
                         { name: "ชาย", value: 46 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 18 },
+                        { name: "< 20", patient: 18 },
                         { name: "20- 24", patient: 8 },
                         { name: "25 - 29", patient: 8 },
                         { name: "30 - 34", patient: 13 },
@@ -335,14 +335,14 @@ const newData = {
                         { name: "45 - 49", patient: 16 },
                         { name: "50 - 54", patient: 4},
                         { name: "55 - 59", patient: 6 },
-                        { name: "มากกว่า 60", patient: 2 }] 
+                        { name: "> 60", patient: 2 }] 
                 },
                 { name: "กลุ่มโรคโลหิตระดูสตรี", value: 36,
                     gender: [
                         { name: "หญิง", value: 36 },
                         { name: "ชาย", value: 0 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 2 },
+                        { name: "< 20", patient: 2 },
                         { name: "20- 24", patient: 1 },
                         { name: "25 - 29", patient: 2 },
                         { name: "30 - 34", patient: 4 },
@@ -351,14 +351,14 @@ const newData = {
                         { name: "45 - 49", patient: 9 },
                         { name: "50 - 54", patient: 10 },
                         { name: "55 - 59", patient: 1 },
-                        { name: "มากกว่า 60", patient: 1 }] 
+                        { name: "> 60", patient: 1 }] 
                 },
                 { name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 90, 
                     gender: [
                         { name: "หญิง", value: 53 },
                         { name: "ชาย", value: 37 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 10 },
+                        { name: "< 20", patient: 10 },
                         { name: "20- 24", patient: 7 },
                         { name: "25 - 29", patient: 11 },
                         { name: "30 - 34", patient: 5 },
@@ -367,14 +367,14 @@ const newData = {
                         { name: "45 - 49", patient: 7 },
                         { name: "50 - 54", patient: 10 },
                         { name: "55 - 59", patient: 6 },
-                        { name: "มากกว่า 60", patient: 14 }] 
+                        { name: "> 60", patient: 14 }] 
                 },
                 { name: "กลุ่มอาการผดผื่น", value: 79, 
                     gender: [
                         { name: "หญิง", value: 42 },
                         { name: "ชาย", value: 37 }],  
                     age: [
-                        { name: "น้อยกว่า 20", patient: 14 },
+                        { name: "< 20", patient: 14 },
                         { name: "20- 24", patient: 1 },
                         { name: "25 - 29", patient: 16 },
                         { name: "30 - 34", patient: 12 },
@@ -383,14 +383,14 @@ const newData = {
                         { name: "45 - 49", patient: 4 },
                         { name: "50 - 54", patient: 7 },
                         { name: "55 - 59", patient: 8 },
-                        { name: "มากกว่า 60", patient: 4 }] 
+                        { name: "> 60", patient: 4 }] 
                 },
                 { name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 88, 
                     gender: [
                         { name: "หญิง", value: 44 },
                         { name: "ชาย", value: 44 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 4 },
+                        { name: "< 20", patient: 4 },
                         { name: "20- 24", patient: 3 },
                         { name: "25 - 29", patient: 13 },
                         { name: "30 - 34", patient: 14 },
@@ -399,7 +399,7 @@ const newData = {
                         { name: "45 - 49", patient: 12 },
                         { name: "50 - 54", patient: 9 },
                         { name: "55 - 59", patient: 6 },
-                        { name: "มากกว่า 60", patient: 9 }] },]
+                        { name: "> 60", patient: 9 }] },]
         },
         {
             index: 5,
@@ -412,7 +412,7 @@ const newData = {
                         { name: "หญิง", value: 60 },
                         { name: "ชาย", value: 63 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 12 },
+                        { name: "< 20", patient: 12 },
                         { name: "20- 24", patient: 5 },
                         { name: "25 - 29", patient: 13 },
                         { name: "30 - 34", patient: 16 },
@@ -421,14 +421,14 @@ const newData = {
                         { name: "45 - 49", patient: 13 },
                         { name: "50 - 54", patient: 13},
                         { name: "55 - 59", patient: 12 },
-                        { name: "มากกว่า 60", patient: 14 }] 
+                        { name: "> 60", patient: 14 }] 
                 },
                 { name: "กลุ่มโรคโลหิตระดูสตรี", value: 43,
                     gender: [
                         { name: "หญิง", value: 43 },
                         { name: "ชาย", value: 0 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 1 },
+                        { name: "< 20", patient: 1 },
                         { name: "20- 24", patient: 5 },
                         { name: "25 - 29", patient: 1 },
                         { name: "30 - 34", patient: 9 },
@@ -437,14 +437,14 @@ const newData = {
                         { name: "45 - 49", patient: 9 },
                         { name: "50 - 54", patient: 9 },
                         { name: "55 - 59", patient: 0 },
-                        { name: "มากกว่า 60", patient: 2 }] 
+                        { name: "> 60", patient: 2 }] 
                 },
                 { name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 114, 
                     gender: [
                         { name: "หญิง", value: 53 },
                         { name: "ชาย", value: 61 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 16 },
+                        { name: "< 20", patient: 16 },
                         { name: "20- 24", patient: 6 },
                         { name: "25 - 29", patient: 13 },
                         { name: "30 - 34", patient: 15 },
@@ -453,14 +453,14 @@ const newData = {
                         { name: "45 - 49", patient: 6 },
                         { name: "50 - 54", patient: 13 },
                         { name: "55 - 59", patient: 13 },
-                        { name: "มากกว่า 60", patient: 11 }] 
+                        { name: "> 60", patient: 11 }] 
                 },
                 { name: "กลุ่มอาการผดผื่น", value: 97, 
                     gender: [
                         { name: "หญิง", value: 41 },
                         { name: "ชาย", value: 56 }],  
                     age: [
-                        { name: "น้อยกว่า 20", patient: 3 },
+                        { name: "< 20", patient: 3 },
                         { name: "20- 24", patient: 6 },
                         { name: "25 - 29", patient: 9 },
                         { name: "30 - 34", patient: 18 },
@@ -469,14 +469,14 @@ const newData = {
                         { name: "45 - 49", patient: 4 },
                         { name: "50 - 54", patient: 11 },
                         { name: "55 - 59", patient: 13 },
-                        { name: "มากกว่า 60", patient: 13 }] 
+                        { name: "> 60", patient: 13 }] 
                 },
                 { name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 78, 
                     gender: [
                         { name: "หญิง", value: 28 },
                         { name: "ชาย", value: 50 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 7 },
+                        { name: "< 20", patient: 7 },
                         { name: "20- 24", patient: 5 },
                         { name: "25 - 29", patient: 8 },
                         { name: "30 - 34", patient: 4 },
@@ -485,7 +485,7 @@ const newData = {
                         { name: "45 - 49", patient: 5 },
                         { name: "50 - 54", patient: 7 },
                         { name: "55 - 59", patient: 16 },
-                        { name: "มากกว่า 60", patient: 7 }] 
+                        { name: "> 60", patient: 7 }] 
                 },]
         },
         {
@@ -499,7 +499,7 @@ const newData = {
                         { name: "หญิง", value: 44 },
                         { name: "ชาย", value: 51 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 4 },
+                        { name: "< 20", patient: 4 },
                         { name: "20- 24", patient: 14 },
                         { name: "25 - 29", patient: 8 },
                         { name: "30 - 34", patient: 4 },
@@ -508,14 +508,14 @@ const newData = {
                         { name: "45 - 49", patient: 16 },
                         { name: "50 - 54", patient: 15},
                         { name: "55 - 59", patient: 11 },
-                        { name: "มากกว่า 60", patient: 3 }] 
+                        { name: "> 60", patient: 3 }] 
                 },
                 { name: "กลุ่มโรคโลหิตระดูสตรี", value: 51,
                     gender: [
                         { name: "หญิง", value: 51 },
                         { name: "ชาย", value: 0 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 8 },
+                        { name: "< 20", patient: 8 },
                         { name: "20- 24", patient: 2 },
                         { name: "25 - 29", patient: 1 },
                         { name: "30 - 34", patient: 9 },
@@ -524,14 +524,14 @@ const newData = {
                         { name: "45 - 49", patient: 1 },
                         { name: "50 - 54", patient: 7 },
                         { name: "55 - 59", patient: 9 },
-                        { name: "มากกว่า 60", patient: 3 }] 
+                        { name: "> 60", patient: 3 }] 
                 },
                 { name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 104, 
                     gender: [
                         { name: "หญิง", value: 40 },
                         { name: "ชาย", value: 64 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 11 },
+                        { name: "< 20", patient: 11 },
                         { name: "20- 24", patient: 13 },
                         { name: "25 - 29", patient: 16 },
                         { name: "30 - 34", patient: 15 },
@@ -540,14 +540,14 @@ const newData = {
                         { name: "45 - 49", patient: 11 },
                         { name: "50 - 54", patient: 17},
                         { name: "55 - 59", patient: 8 },
-                        { name: "มากกว่า 60", patient: 6 }] 
+                        { name: "> 60", patient: 6 }] 
                 },
                 { name: "กลุ่มอาการผดผื่น", value: 110, 
                     gender: [
                         { name: "หญิง", value: 67 },
                         { name: "ชาย", value: 43 }],  
                     age: [
-                        { name: "น้อยกว่า 20", patient: 15 },
+                        { name: "< 20", patient: 15 },
                         { name: "20- 24", patient: 15 },
                         { name: "25 - 29", patient: 11 },
                         { name: "30 - 34", patient: 7 },
@@ -556,14 +556,14 @@ const newData = {
                         { name: "45 - 49", patient: 15 },
                         { name: "50 - 54", patient: 0 },
                         { name: "55 - 59", patient: 13 },
-                        { name: "มากกว่า 60", patient: 13 }] 
+                        { name: "> 60", patient: 13 }] 
                 },
                 { name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 100, 
                     gender: [
                         { name: "หญิง", value: 44 },
                         { name: "ชาย", value: 56 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 17 },
+                        { name: "< 20", patient: 17 },
                         { name: "20- 24", patient: 8 },
                         { name: "25 - 29", patient: 6 },
                         { name: "30 - 34", patient: 8 },
@@ -572,7 +572,7 @@ const newData = {
                         { name: "45 - 49", patient: 10 },
                         { name: "50 - 54", patient: 15 },
                         { name: "55 - 59", patient: 16 },
-                        { name: "มากกว่า 60", patient: 8 }] },]
+                        { name: "> 60", patient: 8 }] },]
         },
         {
             index: 7,
@@ -585,7 +585,7 @@ const newData = {
                         { name: "หญิง", value: 40 },
                         { name: "ชาย", value: 44 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 15 },
+                        { name: "< 20", patient: 15 },
                         { name: "20- 24", patient: 1 },
                         { name: "25 - 29", patient: 14 },
                         { name: "30 - 34", patient: 7 },
@@ -594,14 +594,14 @@ const newData = {
                         { name: "45 - 49", patient: 5 },
                         { name: "50 - 54", patient: 7},
                         { name: "55 - 59", patient: 5 },
-                        { name: "มากกว่า 60", patient: 10 }] 
+                        { name: "> 60", patient: 10 }] 
                 },
                 { name: "กลุ่มโรคโลหิตระดูสตรี", value: 46,
                     gender: [
                         { name: "หญิง", value: 46 },
                         { name: "ชาย", value: 0 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 6 },
+                        { name: "< 20", patient: 6 },
                         { name: "20- 24", patient: 3 },
                         { name: "25 - 29", patient: 10 },
                         { name: "30 - 34", patient: 2 },
@@ -610,14 +610,14 @@ const newData = {
                         { name: "45 - 49", patient: 6 },
                         { name: "50 - 54", patient: 6 },
                         { name: "55 - 59", patient: 1 },
-                        { name: "มากกว่า 60", patient: 0 }] 
+                        { name: "> 60", patient: 0 }] 
                 },
                 { name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 109, 
                     gender: [
                         { name: "หญิง", value: 53 },
                         { name: "ชาย", value: 56 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 4 },
+                        { name: "< 20", patient: 4 },
                         { name: "20- 24", patient: 12 },
                         { name: "25 - 29", patient: 13 },
                         { name: "30 - 34", patient: 10 },
@@ -626,14 +626,14 @@ const newData = {
                         { name: "45 - 49", patient: 18 },
                         { name: "50 - 54", patient: 15 },
                         { name: "55 - 59", patient: 9 },
-                        { name: "มากกว่า 60", patient: 12 }] 
+                        { name: "> 60", patient: 12 }] 
                 },
                 { name: "กลุ่มอาการผดผื่น", value: 95, 
                     gender: [
                         { name: "หญิง", value: 50 },
                         { name: "ชาย", value: 45 }],  
                     age: [
-                        { name: "น้อยกว่า 20", patient: 12 },
+                        { name: "< 20", patient: 12 },
                         { name: "20- 24", patient: 11 },
                         { name: "25 - 29", patient: 6 },
                         { name: "30 - 34", patient: 14 },
@@ -642,14 +642,14 @@ const newData = {
                         { name: "45 - 49", patient: 10 },
                         { name: "50 - 54", patient: 9 },
                         { name: "55 - 59", patient: 10 },
-                        { name: "มากกว่า 60", patient: 8 }] 
+                        { name: "> 60", patient: 8 }] 
                 },
                 { name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 104, 
                     gender: [
                         { name: "หญิง", value: 46 },
                         { name: "ชาย", value: 58 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 15 },
+                        { name: "< 20", patient: 15 },
                         { name: "20- 24", patient: 8 },
                         { name: "25 - 29", patient: 2 },
                         { name: "30 - 34", patient: 15 },
@@ -658,7 +658,7 @@ const newData = {
                         { name: "45 - 49", patient: 17 },
                         { name: "50 - 54", patient: 3 },
                         { name: "55 - 59", patient: 18 },
-                        { name: "มากกว่า 60", patient: 11 }] },]
+                        { name: "> 60", patient: 11 }] },]
         },
         {
             index: 8,
@@ -671,7 +671,7 @@ const newData = {
                         { name: "หญิง", value: 52 },
                         { name: "ชาย", value: 45 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 12 },
+                        { name: "< 20", patient: 12 },
                         { name: "20- 24", patient: 9 },
                         { name: "25 - 29", patient: 12 },
                         { name: "30 - 34", patient: 17 },
@@ -680,14 +680,14 @@ const newData = {
                         { name: "45 - 49", patient: 17 },
                         { name: "50 - 54", patient: 3},
                         { name: "55 - 59", patient: 11 },
-                        { name: "มากกว่า 60", patient: 11 }] 
+                        { name: "> 60", patient: 11 }] 
                 },
                 { name: "กลุ่มโรคโลหิตระดูสตรี", value: 48,
                     gender: [
                         { name: "หญิง", value: 48 },
                         { name: "ชาย", value: 0 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 3 },
+                        { name: "< 20", patient: 3 },
                         { name: "20- 24", patient: 7 },
                         { name: "25 - 29", patient: 2 },
                         { name: "30 - 34", patient: 9 },
@@ -696,14 +696,14 @@ const newData = {
                         { name: "45 - 49", patient: 6 },
                         { name: "50 - 54", patient: 9 },
                         { name: "55 - 59", patient: 7 },
-                        { name: "มากกว่า 60", patient: 2 }] 
+                        { name: "> 60", patient: 2 }] 
                 },
                 { name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 80, 
                     gender: [
                         { name: "หญิง", value: 48 },
                         { name: "ชาย", value: 32 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 6 },
+                        { name: "< 20", patient: 6 },
                         { name: "20- 24", patient: 13 },
                         { name: "25 - 29", patient: 7 },
                         { name: "30 - 34", patient: 11 },
@@ -712,14 +712,14 @@ const newData = {
                         { name: "45 - 49", patient: 8 },
                         { name: "50 - 54", patient: 5 },
                         { name: "55 - 59", patient: 4 },
-                        { name: "มากกว่า 60", patient: 9 }] 
+                        { name: "> 60", patient: 9 }] 
                 },
                 { name: "กลุ่มอาการผดผื่น", value: 115, 
                     gender: [
                         { name: "หญิง", value: 56 },
                         { name: "ชาย", value: 59 }],  
                     age: [
-                        { name: "น้อยกว่า 20", patient: 8 },
+                        { name: "< 20", patient: 8 },
                         { name: "20- 24", patient: 9 },
                         { name: "25 - 29", patient: 8 },
                         { name: "30 - 34", patient: 15 },
@@ -728,14 +728,14 @@ const newData = {
                         { name: "45 - 49", patient: 13 },
                         { name: "50 - 54", patient: 12 },
                         { name: "55 - 59", patient: 9 },
-                        { name: "มากกว่า 60", patient: 17 }] 
+                        { name: "> 60", patient: 17 }] 
                 },
                 { name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 104, 
                     gender: [
                         { name: "หญิง", value: 64 },
                         { name: "ชาย", value: 40 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 7 },
+                        { name: "< 20", patient: 7 },
                         { name: "20- 24", patient: 16 },
                         { name: "25 - 29", patient: 9 },
                         { name: "30 - 34", patient: 5 },
@@ -744,7 +744,7 @@ const newData = {
                         { name: "45 - 49", patient: 14 },
                         { name: "50 - 54", patient: 17 },
                         { name: "55 - 59", patient: 9 },
-                        { name: "มากกว่า 60", patient: 13 }] },]
+                        { name: "> 60", patient: 13 }] },]
         },
         {
             index: 9,
@@ -757,7 +757,7 @@ const newData = {
                         { name: "หญิง", value: 41 },
                         { name: "ชาย", value: 40 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 3 },
+                        { name: "< 20", patient: 3 },
                         { name: "20- 24", patient: 9 },
                         { name: "25 - 29", patient: 2 },
                         { name: "30 - 34", patient: 9 },
@@ -766,14 +766,14 @@ const newData = {
                         { name: "45 - 49", patient: 4 },
                         { name: "50 - 54", patient: 1},
                         { name: "55 - 59", patient: 5 },
-                        { name: "มากกว่า 60", patient: 2 }] 
+                        { name: "> 60", patient: 2 }] 
                 },
                 { name: "กลุ่มโรคโลหิตระดูสตรี", value: 53,
                     gender: [
                         { name: "หญิง", value: 53 },
                         { name: "ชาย", value: 0 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 2 },
+                        { name: "< 20", patient: 2 },
                         { name: "20- 24", patient: 1 },
                         { name: "25 - 29", patient: 4 },
                         { name: "30 - 34", patient: 7 },
@@ -782,14 +782,14 @@ const newData = {
                         { name: "45 - 49", patient: 8 },
                         { name: "50 - 54", patient: 7 },
                         { name: "55 - 59", patient: 8 },
-                        { name: "มากกว่า 60", patient: 9 }] 
+                        { name: "> 60", patient: 9 }] 
                 },
                 { name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 97, 
                     gender: [
                         { name: "หญิง", value: 59 },
                         { name: "ชาย", value: 38 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 8 },
+                        { name: "< 20", patient: 8 },
                         { name: "20- 24", patient: 5 },
                         { name: "25 - 29", patient: 4 },
                         { name: "30 - 34", patient: 6 },
@@ -798,14 +798,14 @@ const newData = {
                         { name: "45 - 49", patient: 7 },
                         { name: "50 - 54", patient: 7 },
                         { name: "55 - 59", patient: 8 },
-                        { name: "มากกว่า 60", patient: 7 }] 
+                        { name: "> 60", patient: 7 }] 
                 },
                 { name: "กลุ่มอาการผดผื่น", value: 95, 
                     gender: [
                         { name: "หญิง", value: 42 },
                         { name: "ชาย", value: 53 }],  
                     age: [
-                        { name: "น้อยกว่า 20", patient: 5 },
+                        { name: "< 20", patient: 5 },
                         { name: "20- 24", patient: 1 },
                         { name: "25 - 29", patient: 7 },
                         { name: "30 - 34", patient: 1 },
@@ -814,14 +814,14 @@ const newData = {
                         { name: "45 - 49", patient: 1 },
                         { name: "50 - 54", patient: 10 },
                         { name: "55 - 59", patient: 0 },
-                        { name: "มากกว่า 60", patient: 5 }] 
+                        { name: "> 60", patient: 5 }] 
                 },
                 { name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 104, 
                     gender: [
                         { name: "หญิง", value: 51 },
                         { name: "ชาย", value: 53 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 9 },
+                        { name: "< 20", patient: 9 },
                         { name: "20- 24", patient: 5 },
                         { name: "25 - 29", patient: 4 },
                         { name: "30 - 34", patient: 1},
@@ -830,7 +830,7 @@ const newData = {
                         { name: "45 - 49", patient: 6 },
                         { name: "50 - 54", patient: 4 },
                         { name: "55 - 59", patient: 5 },
-                        { name: "มากกว่า 60", patient: 5 }] },]
+                        { name: "> 60", patient: 5 }] },]
         },
         {
             index: 10,
@@ -843,7 +843,7 @@ const newData = {
                         { name: "หญิง", value: 58 },
                         { name: "ชาย", value: 48 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 2 },
+                        { name: "< 20", patient: 2 },
                         { name: "20- 24", patient: 12 },
                         { name: "25 - 29", patient: 10 },
                         { name: "30 - 34", patient: 12 },
@@ -852,14 +852,14 @@ const newData = {
                         { name: "45 - 49", patient: 11},
                         { name: "50 - 54", patient: 13},
                         { name: "55 - 59", patient: 7 },
-                        { name: "มากกว่า 60", patient: 14 }] 
+                        { name: "> 60", patient: 14 }] 
                 },
                 { name: "กลุ่มโรคโลหิตระดูสตรี", value: 56,
                     gender: [
                         { name: "หญิง", value: 56 },
                         { name: "ชาย", value: 0 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 1 },
+                        { name: "< 20", patient: 1 },
                         { name: "20- 24", patient: 9 },
                         { name: "25 - 29", patient: 10 },
                         { name: "30 - 34", patient: 8 },
@@ -868,14 +868,14 @@ const newData = {
                         { name: "45 - 49", patient: 3 },
                         { name: "50 - 54", patient: 7 },
                         { name: "55 - 59", patient: 1 },
-                        { name: "มากกว่า 60", patient: 9 }] 
+                        { name: "> 60", patient: 9 }] 
                 },
                 { name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 94, 
                     gender: [
                         { name: "หญิง", value: 35 },
                         { name: "ชาย", value: 59 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 12 },
+                        { name: "< 20", patient: 12 },
                         { name: "20- 24", patient: 10},
                         { name: "25 - 29", patient: 10 },
                         { name: "30 - 34", patient: 10 },
@@ -884,14 +884,14 @@ const newData = {
                         { name: "45 - 49", patient: 12 },
                         { name: "50 - 54", patient: 11 },
                         { name: "55 - 59", patient: 10 },
-                        { name: "มากกว่า 60", patient: 6 }] 
+                        { name: "> 60", patient: 6 }] 
                 },
                 { name: "กลุ่มอาการผดผื่น", value: 109, 
                     gender: [
                         { name: "หญิง", value: 62 },
                         { name: "ชาย", value: 47 }],  
                     age: [
-                        { name: "น้อยกว่า 20", patient: 11 },
+                        { name: "< 20", patient: 11 },
                         { name: "20- 24", patient: 13 },
                         { name: "25 - 29", patient: 14 },
                         { name: "30 - 34", patient: 5 },
@@ -900,14 +900,14 @@ const newData = {
                         { name: "45 - 49", patient: 7 },
                         { name: "50 - 54", patient: 10 },
                         { name: "55 - 59", patient: 12 },
-                        { name: "มากกว่า 60", patient: 17 }] 
+                        { name: "> 60", patient: 17 }] 
                 },
                 { name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 105, 
                     gender: [
                         { name: "หญิง", value: 48 },
                         { name: "ชาย", value: 57 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 3 },
+                        { name: "< 20", patient: 3 },
                         { name: "20- 24", patient: 12 },
                         { name: "25 - 29", patient: 8 },
                         { name: "30 - 34", patient: 6},
@@ -916,7 +916,7 @@ const newData = {
                         { name: "45 - 49", patient: 17 },
                         { name: "50 - 54", patient: 17 },
                         { name: "55 - 59", patient: 6 },
-                        { name: "มากกว่า 60", patient: 14 }] },]
+                        { name: "> 60", patient: 14 }] },]
         },
         {
             index: 11,
@@ -929,7 +929,7 @@ const newData = {
                         { name: "หญิง", value: 60 },
                         { name: "ชาย", value: 60 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 10 },
+                        { name: "< 20", patient: 10 },
                         { name: "20- 24", patient: 17 },
                         { name: "25 - 29", patient: 11 },
                         { name: "30 - 34", patient: 15 },
@@ -938,14 +938,14 @@ const newData = {
                         { name: "45 - 49", patient: 9},
                         { name: "50 - 54", patient: 13},
                         { name: "55 - 59", patient: 14 },
-                        { name: "มากกว่า 60", patient: 13 }] 
+                        { name: "> 60", patient: 13 }] 
                 },
                 { name: "กลุ่มโรคโลหิตระดูสตรี", value: 26,
                     gender: [
                         { name: "หญิง", value: 26 },
                         { name: "ชาย", value: 0 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 1 },
+                        { name: "< 20", patient: 1 },
                         { name: "20- 24", patient: 1 },
                         { name: "25 - 29", patient: 2 },
                         { name: "30 - 34", patient: 1 },
@@ -954,14 +954,14 @@ const newData = {
                         { name: "45 - 49", patient: 5 },
                         { name: "50 - 54", patient: 5 },
                         { name: "55 - 59", patient: 3 },
-                        { name: "มากกว่า 60", patient: 2 }] 
+                        { name: "> 60", patient: 2 }] 
                 },
                 { name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 90, 
                     gender: [
                         { name: "หญิง", value: 43 },
                         { name: "ชาย", value: 47 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 8 },
+                        { name: "< 20", patient: 8 },
                         { name: "20- 24", patient: 7 },
                         { name: "25 - 29", patient: 6 },
                         { name: "30 - 34", patient: 9 },
@@ -970,14 +970,14 @@ const newData = {
                         { name: "45 - 49", patient: 13 },
                         { name: "50 - 54", patient: 14 },
                         { name: "55 - 59", patient: 11 },
-                        { name: "มากกว่า 60", patient: 12 }] 
+                        { name: "> 60", patient: 12 }] 
                 },
                 { name: "กลุ่มอาการผดผื่น", value: 83, 
                     gender: [
                         { name: "หญิง", value: 35 },
                         { name: "ชาย", value: 48 }],  
                     age: [
-                        { name: "น้อยกว่า 20", patient: 11 },
+                        { name: "< 20", patient: 11 },
                         { name: "20- 24", patient: 11 },
                         { name: "25 - 29", patient: 11 },
                         { name: "30 - 34", patient: 3 },
@@ -986,14 +986,14 @@ const newData = {
                         { name: "45 - 49", patient: 7 },
                         { name: "50 - 54", patient: 2 },
                         { name: "55 - 59", patient: 6 },
-                        { name: "มากกว่า 60", patient: 15 }] 
+                        { name: "> 60", patient: 15 }] 
                 },
                 { name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 109, 
                     gender: [
                         { name: "หญิง", value: 52 },
                         { name: "ชาย", value: 57 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 11 },
+                        { name: "< 20", patient: 11 },
                         { name: "20- 24", patient: 20 },
                         { name: "25 - 29", patient: 5 },
                         { name: "30 - 34", patient: 19 },
@@ -1002,7 +1002,7 @@ const newData = {
                         { name: "45 - 49", patient: 9 },
                         { name: "50 - 54", patient: 15 },
                         { name: "55 - 59", patient: 9 },
-                        { name: "มากกว่า 60", patient: 11 }] },]
+                        { name: "> 60", patient: 11 }] },]
         },
         {
             index: 12,
@@ -1015,7 +1015,7 @@ const newData = {
                         { name: "หญิง", value: 56 },
                         { name: "ชาย", value: 67 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 13 },
+                        { name: "< 20", patient: 13 },
                         { name: "20- 24", patient: 18 },
                         { name: "25 - 29", patient: 9 },
                         { name: "30 - 34", patient: 12 },
@@ -1024,14 +1024,14 @@ const newData = {
                         { name: "45 - 49", patient: 15},
                         { name: "50 - 54", patient: 5},
                         { name: "55 - 59", patient: 7 },
-                        { name: "มากกว่า 60", patient: 9 }] 
+                        { name: "> 60", patient: 9 }] 
                 },
                 { name: "กลุ่มโรคโลหิตระดูสตรี", value: 59,
                     gender: [
                         { name: "หญิง", value: 59 },
                         { name: "ชาย", value: 0 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 8 },
+                        { name: "< 20", patient: 8 },
                         { name: "20- 24", patient: 9 },
                         { name: "25 - 29", patient: 7 },
                         { name: "30 - 34", patient: 9 },
@@ -1040,14 +1040,14 @@ const newData = {
                         { name: "45 - 49", patient: 0 },
                         { name: "50 - 54", patient: 4 },
                         { name: "55 - 59", patient: 6 },
-                        { name: "มากกว่า 60", patient:7 }] 
+                        { name: "> 60", patient:7 }] 
                 },
                 { name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 12, 
                     gender: [
                         { name: "หญิง", value: 70 },
                         { name: "ชาย", value: 42 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 11 },
+                        { name: "< 20", patient: 11 },
                         { name: "20- 24", patient: 8 },
                         { name: "25 - 29", patient: 10 },
                         { name: "30 - 34", patient: 6 },
@@ -1056,14 +1056,14 @@ const newData = {
                         { name: "45 - 49", patient: 6 },
                         { name: "50 - 54", patient: 14 },
                         { name: "55 - 59", patient: 8 },
-                        { name: "มากกว่า 60", patient: 14 }] 
+                        { name: "> 60", patient: 14 }] 
                 },
                 { name: "กลุ่มอาการผดผื่น", value: 100, 
                     gender: [
                         { name: "หญิง", value: 56 },
                         { name: "ชาย", value: 44 }],  
                     age: [
-                        { name: "น้อยกว่า 20", patient: 9 },
+                        { name: "< 20", patient: 9 },
                         { name: "20- 24", patient: 8 },
                         { name: "25 - 29", patient: 11 },
                         { name: "30 - 34", patient: 15 },
@@ -1072,14 +1072,14 @@ const newData = {
                         { name: "45 - 49", patient: 6 },
                         { name: "50 - 54", patient: 17 },
                         { name: "55 - 59", patient: 6 },
-                        { name: "มากกว่า 60", patient: 10 }] 
+                        { name: "> 60", patient: 10 }] 
                 },
                 { name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 105, 
                     gender: [
                         { name: "หญิง", value: 50 },
                         { name: "ชาย", value: 55 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 15 },
+                        { name: "< 20", patient: 15 },
                         { name: "20- 24", patient: 8 },
                         { name: "25 - 29", patient: 4 },
                         { name: "30 - 34", patient: 16 },
@@ -1088,7 +1088,7 @@ const newData = {
                         { name: "45 - 49", patient: 12 },
                         { name: "50 - 54", patient: 13 },
                         { name: "55 - 59", patient: 3 },
-                        { name: "มากกว่า 60", patient: 9 }] },]
+                        { name: "> 60", patient: 9 }] },]
         },
         {
             index: 13,
@@ -1101,7 +1101,7 @@ const newData = {
                         { name: "หญิง", value: 57 },
                         { name: "ชาย", value: 58 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 12 },
+                        { name: "< 20", patient: 12 },
                         { name: "20- 24", patient: 15 },
                         { name: "25 - 29", patient: 10 },
                         { name: "30 - 34", patient: 3 },
@@ -1110,14 +1110,14 @@ const newData = {
                         { name: "45 - 49", patient: 1},
                         { name: "50 - 54", patient: 11},
                         { name: "55 - 59", patient: 18 },
-                        { name: "มากกว่า 60", patient: 19 }] 
+                        { name: "> 60", patient: 19 }] 
                 },
                 { name: "กลุ่มโรคโลหิตระดูสตรี", value: 56,
                     gender: [
                         { name: "หญิง", value: 56 },
                         { name: "ชาย", value: 0 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 8 },
+                        { name: "< 20", patient: 8 },
                         { name: "20- 24", patient: 6 },
                         { name: "25 - 29", patient: 9 },
                         { name: "30 - 34", patient: 2 },
@@ -1126,14 +1126,14 @@ const newData = {
                         { name: "45 - 49", patient: 4 },
                         { name: "50 - 54", patient: 8 },
                         { name: "55 - 59", patient: 7 },
-                        { name: "มากกว่า 60", patient: 6 }] 
+                        { name: "> 60", patient: 6 }] 
                 },
                 { name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 73, 
                     gender: [
                         { name: "หญิง", value: 46 },
                         { name: "ชาย", value: 27 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 4 },
+                        { name: "< 20", patient: 4 },
                         { name: "20- 24", patient: 13 },
                         { name: "25 - 29", patient: 5 },
                         { name: "30 - 34", patient: 4 },
@@ -1142,14 +1142,14 @@ const newData = {
                         { name: "45 - 49", patient: 3 },
                         { name: "50 - 54", patient: 12 },
                         { name: "55 - 59", patient: 5 },
-                        { name: "มากกว่า 60", patient: 11 }] 
+                        { name: "> 60", patient: 11 }] 
                 },
                 { name: "กลุ่มอาการผดผื่น", value: 83, 
                     gender: [
                         { name: "หญิง", value: 48 },
                         { name: "ชาย", value: 35 }],  
                     age: [
-                        { name: "น้อยกว่า 20", patient: 11 },
+                        { name: "< 20", patient: 11 },
                         { name: "20- 24", patient: 8 },
                         { name: "25 - 29", patient: 1 },
                         { name: "30 - 34", patient: 2 },
@@ -1158,14 +1158,14 @@ const newData = {
                         { name: "45 - 49", patient: 8 },
                         { name: "50 - 54", patient: 13 },
                         { name: "55 - 59", patient: 5 },
-                        { name: "มากกว่า 60", patient: 2 }] 
+                        { name: "> 60", patient: 2 }] 
                 },
                 { name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 87, 
                     gender: [
                         { name: "หญิง", value: 44 },
                         { name: "ชาย", value: 43 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 10 },
+                        { name: "< 20", patient: 10 },
                         { name: "20- 24", patient: 10 },
                         { name: "25 - 29", patient: 7 },
                         { name: "30 - 34", patient: 13 },
@@ -1174,7 +1174,7 @@ const newData = {
                         { name: "45 - 49", patient: 2 },
                         { name: "50 - 54", patient: 2 },
                         { name: "55 - 59", patient: 18 },
-                        { name: "มากกว่า 60", patient: 4 }] },]
+                        { name: "> 60", patient: 4 }] },]
         },
         {
             index: 14,
@@ -1187,7 +1187,7 @@ const newData = {
                         { name: "หญิง", value: 45 },
                         { name: "ชาย", value: 42 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 9 },
+                        { name: "< 20", patient: 9 },
                         { name: "20- 24", patient: 2 },
                         { name: "25 - 29", patient: 8 },
                         { name: "30 - 34", patient: 9 },
@@ -1196,14 +1196,14 @@ const newData = {
                         { name: "45 - 49", patient: 16},
                         { name: "50 - 54", patient: 9},
                         { name: "55 - 59", patient: 16 },
-                        { name: "มากกว่า 60", patient: 6 }] 
+                        { name: "> 60", patient: 6 }] 
                 },
                 { name: "กลุ่มโรคโลหิตระดูสตรี", value: 60,
                     gender: [
                         { name: "หญิง", value: 60 },
                         { name: "ชาย", value: 0 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 10 },
+                        { name: "< 20", patient: 10 },
                         { name: "20- 24", patient: 10 },
                         { name: "25 - 29", patient: 7 },
                         { name: "30 - 34", patient: 4 },
@@ -1212,14 +1212,14 @@ const newData = {
                         { name: "45 - 49", patient: 1 },
                         { name: "50 - 54", patient: 2 },
                         { name: "55 - 59", patient: 5 },
-                        { name: "มากกว่า 60", patient: 9 }] 
+                        { name: "> 60", patient: 9 }] 
                 },
                 { name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 109, 
                     gender: [
                         { name: "หญิง", value: 55 },
                         { name: "ชาย", value: 54 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 17 },
+                        { name: "< 20", patient: 17 },
                         { name: "20- 24", patient: 5 },
                         { name: "25 - 29", patient: 13 },
                         { name: "30 - 34", patient: 8 },
@@ -1228,14 +1228,14 @@ const newData = {
                         { name: "45 - 49", patient: 11 },
                         { name: "50 - 54", patient: 15 },
                         { name: "55 - 59", patient: 7 },
-                        { name: "มากกว่า 60", patient: 11 }] 
+                        { name: "> 60", patient: 11 }] 
                 },
                 { name: "กลุ่มอาการผดผื่น", value: 103, 
                     gender: [
                         { name: "หญิง", value: 50 },
                         { name: "ชาย", value: 53 }],  
                     age: [
-                        { name: "น้อยกว่า 20", patient: 10 },
+                        { name: "< 20", patient: 10 },
                         { name: "20- 24", patient: 12 },
                         { name: "25 - 29", patient: 14 },
                         { name: "30 - 34", patient: 12 },
@@ -1244,14 +1244,14 @@ const newData = {
                         { name: "45 - 49", patient: 5},
                         { name: "50 - 54", patient: 7 },
                         { name: "55 - 59", patient: 7 },
-                        { name: "มากกว่า 60", patient: 15 }] 
+                        { name: "> 60", patient: 15 }] 
                 },
                 { name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 116, 
                     gender: [
                         { name: "หญิง", value: 62 },
                         { name: "ชาย", value: 54 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 16 },
+                        { name: "< 20", patient: 16 },
                         { name: "20- 24", patient: 12 },
                         { name: "25 - 29", patient: 14 },
                         { name: "30 - 34", patient: 12 },
@@ -1260,7 +1260,7 @@ const newData = {
                         { name: "45 - 49", patient: 17 },
                         { name: "50 - 54", patient: 9 },
                         { name: "55 - 59", patient: 12 },
-                        { name: "มากกว่า 60", patient: 9 }] },]
+                        { name: "> 60", patient: 9 }] },]
         },
         {
             index: 15,
@@ -1273,7 +1273,7 @@ const newData = {
                         { name: "หญิง", value: 43 },
                         { name: "ชาย", value: 61 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 6 },
+                        { name: "< 20", patient: 6 },
                         { name: "20- 24", patient: 14 },
                         { name: "25 - 29", patient: 11 },
                         { name: "30 - 34", patient: 13 },
@@ -1282,14 +1282,14 @@ const newData = {
                         { name: "45 - 49", patient: 15},
                         { name: "50 - 54", patient: 8},
                         { name: "55 - 59", patient: 5 },
-                        { name: "มากกว่า 60", patient: 12 }] 
+                        { name: "> 60", patient: 12 }] 
                 },
                 { name: "กลุ่มโรคโลหิตระดูสตรี", value: 39,
                     gender: [
                         { name: "หญิง", value: 39 },
                         { name: "ชาย", value: 0 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 2 },
+                        { name: "< 20", patient: 2 },
                         { name: "20- 24", patient: 7 },
                         { name: "25 - 29", patient: 4 },
                         { name: "30 - 34", patient: 10 },
@@ -1298,14 +1298,14 @@ const newData = {
                         { name: "45 - 49", patient: 4 },
                         { name: "50 - 54", patient: 4 },
                         { name: "55 - 59", patient: 1 },
-                        { name: "มากกว่า 60", patient: 2 }] 
+                        { name: "> 60", patient: 2 }] 
                 },
                 { name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 88, 
                     gender: [
                         { name: "หญิง", value: 43 },
                         { name: "ชาย", value: 45 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 6 },
+                        { name: "< 20", patient: 6 },
                         { name: "20- 24", patient: 14 },
                         { name: "25 - 29", patient: 11 },
                         { name: "30 - 34", patient: 10 },
@@ -1314,14 +1314,14 @@ const newData = {
                         { name: "45 - 49", patient: 3 },
                         { name: "50 - 54", patient: 5 },
                         { name: "55 - 59", patient: 13 },
-                        { name: "มากกว่า 60", patient: 5 }] 
+                        { name: "> 60", patient: 5 }] 
                 },
                 { name: "กลุ่มอาการผดผื่น", value: 86, 
                     gender: [
                         { name: "หญิง", value: 48 },
                         { name: "ชาย", value: 38 }],  
                     age: [
-                        { name: "น้อยกว่า 20", patient: 7 },
+                        { name: "< 20", patient: 7 },
                         { name: "20- 24", patient: 8 },
                         { name: "25 - 29", patient: 4},
                         { name: "30 - 34", patient: 3 },
@@ -1330,14 +1330,14 @@ const newData = {
                         { name: "45 - 49", patient: 8},
                         { name: "50 - 54", patient: 10 },
                         { name: "55 - 59", patient: 6 },
-                        { name: "มากกว่า 60", patient: 5 }] 
+                        { name: "> 60", patient: 5 }] 
                 },
                 { name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 90, 
                     gender: [
                         { name: "หญิง", value: 47 },
                         { name: "ชาย", value: 43 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 12 },
+                        { name: "< 20", patient: 12 },
                         { name: "20- 24", patient: 14 },
                         { name: "25 - 29", patient: 9 },
                         { name: "30 - 34", patient: 6 },
@@ -1346,7 +1346,7 @@ const newData = {
                         { name: "45 - 49", patient: 1 },
                         { name: "50 - 54", patient: 8 },
                         { name: "55 - 59", patient: 16 },
-                        { name: "มากกว่า 60", patient: 6 }] },]
+                        { name: "> 60", patient: 6 }] },]
         },
         {
             index: 16,
@@ -1359,7 +1359,7 @@ const newData = {
                         { name: "หญิง", value: 60 },
                         { name: "ชาย", value: 42 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 3 },
+                        { name: "< 20", patient: 3 },
                         { name: "20- 24", patient: 9 },
                         { name: "25 - 29", patient: 14 },
                         { name: "30 - 34", patient: 15 },
@@ -1368,14 +1368,14 @@ const newData = {
                         { name: "45 - 49", patient: 12},
                         { name: "50 - 54", patient: 12},
                         { name: "55 - 59", patient: 8 },
-                        { name: "มากกว่า 60", patient: 10 }] 
+                        { name: "> 60", patient: 10 }] 
                 },
                 { name: "กลุ่มโรคโลหิตระดูสตรี", value: 51,
                     gender: [
                         { name: "หญิง", value: 51 },
                         { name: "ชาย", value: 0 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 10 },
+                        { name: "< 20", patient: 10 },
                         { name: "20- 24", patient: 1 },
                         { name: "25 - 29", patient: 1 },
                         { name: "30 - 34", patient: 5 },
@@ -1384,14 +1384,14 @@ const newData = {
                         { name: "45 - 49", patient: 8 },
                         { name: "50 - 54", patient: 6 },
                         { name: "55 - 59", patient: 1 },
-                        { name: "มากกว่า 60", patient: 6 }] 
+                        { name: "> 60", patient: 6 }] 
                 },
                 { name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 73, 
                     gender: [
                         { name: "หญิง", value: 31 },
                         { name: "ชาย", value: 43 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 12 },
+                        { name: "< 20", patient: 12 },
                         { name: "20- 24", patient: 8 },
                         { name: "25 - 29", patient: 4 },
                         { name: "30 - 34", patient: 6 },
@@ -1400,14 +1400,14 @@ const newData = {
                         { name: "45 - 49", patient:4 },
                         { name: "50 - 54", patient: 11 },
                         { name: "55 - 59", patient: 7 },
-                        { name: "มากกว่า 60", patient: 3 }] 
+                        { name: "> 60", patient: 3 }] 
                 },
                 { name: "กลุ่มอาการผดผื่น", value: 103, 
                     gender: [
                         { name: "หญิง", value: 47 },
                         { name: "ชาย", value: 56 }],  
                     age: [
-                        { name: "น้อยกว่า 20", patient: 7 },
+                        { name: "< 20", patient: 7 },
                         { name: "20- 24", patient: 10 },
                         { name: "25 - 29", patient: 15},
                         { name: "30 - 34", patient: 13 },
@@ -1416,14 +1416,14 @@ const newData = {
                         { name: "45 - 49", patient: 6},
                         { name: "50 - 54", patient: 7 },
                         { name: "55 - 59", patient: 9 },
-                        { name: "มากกว่า 60", patient: 11 }] 
+                        { name: "> 60", patient: 11 }] 
                 },
                 { name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 127, 
                     gender: [
                         { name: "หญิง", value: 59 },
                         { name: "ชาย", value: 68 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 14 },
+                        { name: "< 20", patient: 14 },
                         { name: "20- 24", patient: 17 },
                         { name: "25 - 29", patient: 16 },
                         { name: "30 - 34", patient: 7 },
@@ -1432,7 +1432,7 @@ const newData = {
                         { name: "45 - 49", patient: 7 },
                         { name: "50 - 54", patient: 12 },
                         { name: "55 - 59", patient: 18 },
-                        { name: "มากกว่า 60", patient:11 }] },]
+                        { name: "> 60", patient:11 }] },]
         },
         {
             index: 17,
@@ -1445,7 +1445,7 @@ const newData = {
                         { name: "หญิง", value: 58 },
                         { name: "ชาย", value: 40 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 19 },
+                        { name: "< 20", patient: 19 },
                         { name: "20- 24", patient: 8 },
                         { name: "25 - 29", patient: 18 },
                         { name: "30 - 34", patient: 8 },
@@ -1454,14 +1454,14 @@ const newData = {
                         { name: "45 - 49", patient: 7},
                         { name: "50 - 54", patient: 12},
                         { name: "55 - 59", patient: 10 },
-                        { name: "มากกว่า 60", patient: 1 }] 
+                        { name: "> 60", patient: 1 }] 
                 },
                 { name: "กลุ่มโรคโลหิตระดูสตรี", value: 64,
                     gender: [
                         { name: "หญิง", value: 64 },
                         { name: "ชาย", value: 0 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 9},
+                        { name: "< 20", patient: 9},
                         { name: "20- 24", patient: 10 },
                         { name: "25 - 29", patient: 9 },
                         { name: "30 - 34", patient: 1 },
@@ -1470,14 +1470,14 @@ const newData = {
                         { name: "45 - 49", patient: 7 },
                         { name: "50 - 54", patient: 5 },
                         { name: "55 - 59", patient: 8 },
-                        { name: "มากกว่า 60", patient: 3 }] 
+                        { name: "> 60", patient: 3 }] 
                 },
                 { name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 106, 
                     gender: [
                         { name: "หญิง", value: 58 },
                         { name: "ชาย", value: 48 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 7 },
+                        { name: "< 20", patient: 7 },
                         { name: "20- 24", patient: 2 },
                         { name: "25 - 29", patient: 10 },
                         { name: "30 - 34", patient: 14 },
@@ -1486,14 +1486,14 @@ const newData = {
                         { name: "45 - 49", patient: 4 },
                         { name: "50 - 54", patient: 14 },
                         { name: "55 - 59", patient: 19 },
-                        { name: "มากกว่า 60", patient: 13 }] 
+                        { name: "> 60", patient: 13 }] 
                 },
                 { name: "กลุ่มอาการผดผื่น", value: 105, 
                     gender: [
                         { name: "หญิง", value: 56 },
                         { name: "ชาย", value: 49 }],  
                     age: [
-                        { name: "น้อยกว่า 20", patient: 16 },
+                        { name: "< 20", patient: 16 },
                         { name: "20- 24", patient: 17 },
                         { name: "25 - 29", patient: 9},
                         { name: "30 - 34", patient: 12 },
@@ -1502,14 +1502,14 @@ const newData = {
                         { name: "45 - 49", patient: 13},
                         { name: "50 - 54", patient: 9 },
                         { name: "55 - 59", patient: 8 },
-                        { name: "มากกว่า 60", patient: 7 }] 
+                        { name: "> 60", patient: 7 }] 
                 },
                 { name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 104, 
                     gender: [
                         { name: "หญิง", value: 52 },
                         { name: "ชาย", value: 52 }],   
                     age: [
-                        { name: "น้อยกว่า 20", patient: 9 },
+                        { name: "< 20", patient: 9 },
                         { name: "20- 24", patient: 17 },
                         { name: "25 - 29", patient: 3 },
                         { name: "30 - 34", patient: 4 },
@@ -1518,7 +1518,7 @@ const newData = {
                         { name: "45 - 49", patient: 11 },
                         { name: "50 - 54", patient: 12 },
                         { name: "55 - 59", patient: 12 },
-                        { name: "มากกว่า 60", patient: 14 }] },]
+                        { name: "> 60", patient: 14 }] },]
         },
     ],
     2567: [
@@ -1535,7 +1535,7 @@ const newData = {
                         { name: "ชาย", value: 653 },
                     ],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 138 },
+                        { name: "< 20", patient: 138 },
                         { name: "20- 24", patient: 154 },
                         { name: "25 - 29", patient: 149 },
                         { name: "30 - 34", patient: 147 },
@@ -1544,7 +1544,7 @@ const newData = {
                         { name: "45 - 49", patient: 127 },
                         { name: "50 - 54", patient: 136 },
                         { name: "55 - 59", patient: 146 },
-                        { name: "มากกว่า 60", patient: 120 }]
+                        { name: "> 60", patient: 120 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 575,
@@ -1552,7 +1552,7 @@ const newData = {
                         { name: "หญิง", value: 575 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 50 },
+                        { name: "< 20", patient: 50 },
                         { name: "20- 24", patient: 69 },
                         { name: "25 - 29", patient: 41 },
                         { name: "30 - 34", patient: 45 },
@@ -1561,7 +1561,7 @@ const newData = {
                         { name: "45 - 49", patient: 68 },
                         { name: "50 - 54", patient: 63 },
                         { name: "55 - 59", patient: 54 },
-                        { name: "มากกว่า 60", patient: 74 }]
+                        { name: "> 60", patient: 74 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1111,
@@ -1569,7 +1569,7 @@ const newData = {
                         { name: "หญิง", value: 566 },
                         { name: "ชาย", value: 545 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 93 },
+                        { name: "< 20", patient: 93 },
                         { name: "20- 24", patient: 128 },
                         { name: "25 - 29", patient: 143 },
                         { name: "30 - 34", patient: 88 },
@@ -1578,7 +1578,7 @@ const newData = {
                         { name: "45 - 49", patient: 120 },
                         { name: "50 - 54", patient: 105 },
                         { name: "55 - 59", patient: 89 },
-                        { name: "มากกว่า 60", patient: 130 }]
+                        { name: "> 60", patient: 130 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1294,
@@ -1586,7 +1586,7 @@ const newData = {
                         { name: "หญิง", value: 629 },
                         { name: "ชาย", value: 665 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 122 },
+                        { name: "< 20", patient: 122 },
                         { name: "20- 24", patient: 116 },
                         { name: "25 - 29", patient: 137 },
                         { name: "30 - 34", patient: 136 },
@@ -1595,7 +1595,7 @@ const newData = {
                         { name: "45 - 49", patient: 134 },
                         { name: "50 - 54", patient: 116 },
                         { name: "55 - 59", patient: 136 },
-                        { name: "มากกว่า 60", patient: 156 }]
+                        { name: "> 60", patient: 156 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1218,
@@ -1603,7 +1603,7 @@ const newData = {
                         { name: "หญิง", value: 600 },
                         { name: "ชาย", value: 618 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 120 },
+                        { name: "< 20", patient: 120 },
                         { name: "20- 24", patient: 126 },
                         { name: "25 - 29", patient: 146 },
                         { name: "30 - 34", patient: 119 },
@@ -1612,7 +1612,7 @@ const newData = {
                         { name: "45 - 49", patient: 100 },
                         { name: "50 - 54", patient: 127 },
                         { name: "55 - 59", patient: 126 },
-                        { name: "มากกว่า 60", patient: 118 }]
+                        { name: "> 60", patient: 118 }]
                 }
             ]
         },
@@ -1627,7 +1627,7 @@ const newData = {
                         { name: "หญิง", value: 625 },
                         { name: "ชาย", value: 573 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 109 },
+                        { name: "< 20", patient: 109 },
                         { name: "20- 24", patient: 117 },
                         { name: "25 - 29", patient: 127 },
                         { name: "30 - 34", patient: 134 },
@@ -1636,7 +1636,7 @@ const newData = {
                         { name: "45 - 49", patient: 113 },
                         { name: "50 - 54", patient: 95 },
                         { name: "55 - 59", patient: 111 },
-                        { name: "มากกว่า 60", patient: 127 }]
+                        { name: "> 60", patient: 127 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 589,
@@ -1644,7 +1644,7 @@ const newData = {
                         { name: "หญิง", value: 589 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 50 },
+                        { name: "< 20", patient: 50 },
                         { name: "20- 24", patient: 69 },
                         { name: "25 - 29", patient: 41 },
                         { name: "30 - 34", patient: 45 },
@@ -1653,7 +1653,7 @@ const newData = {
                         { name: "45 - 49", patient: 68 },
                         { name: "50 - 54", patient: 63 },
                         { name: "55 - 59", patient: 54 },
-                        { name: "มากกว่า 60", patient: 74 }]
+                        { name: "> 60", patient: 74 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1174,
@@ -1661,7 +1661,7 @@ const newData = {
                         { name: "หญิง", value: 549 },
                         { name: "ชาย", value: 625 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 132 },
+                        { name: "< 20", patient: 132 },
                         { name: "20- 24", patient: 107 },
                         { name: "25 - 29", patient: 103 },
                         { name: "30 - 34", patient: 119 },
@@ -1670,7 +1670,7 @@ const newData = {
                         { name: "45 - 49", patient: 109 },
                         { name: "50 - 54", patient: 139 },
                         { name: "55 - 59", patient: 137 },
-                        { name: "มากกว่า 60", patient: 113 }]
+                        { name: "> 60", patient: 113 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1148,
@@ -1678,7 +1678,7 @@ const newData = {
                         { name: "หญิง", value: 593 },
                         { name: "ชาย", value: 555 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 114 },
+                        { name: "< 20", patient: 114 },
                         { name: "20- 24", patient: 114 },
                         { name: "25 - 29", patient: 112 },
                         { name: "30 - 34", patient: 128 },
@@ -1687,7 +1687,7 @@ const newData = {
                         { name: "45 - 49", patient: 106 },
                         { name: "50 - 54", patient: 104 },
                         { name: "55 - 59", patient: 107 },
-                        { name: "มากกว่า 60", patient: 133 }]
+                        { name: "> 60", patient: 133 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1294,
@@ -1695,7 +1695,7 @@ const newData = {
                         { name: "หญิง", value: 670 },
                         { name: "ชาย", value: 624 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 127 },
+                        { name: "< 20", patient: 127 },
                         { name: "20- 24", patient: 123 },
                         { name: "25 - 29", patient: 143 },
                         { name: "30 - 34", patient: 109 },
@@ -1704,7 +1704,7 @@ const newData = {
                         { name: "45 - 49", patient: 127 },
                         { name: "50 - 54", patient: 140 },
                         { name: "55 - 59", patient: 108 },
-                        { name: "มากกว่า 60", patient: 128 }]
+                        { name: "> 60", patient: 128 }]
                 },]
         },
         {
@@ -1718,7 +1718,7 @@ const newData = {
                         { name: "หญิง", value: 555 },
                         { name: "ชาย", value: 631 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 124 },
+                        { name: "< 20", patient: 124 },
                         { name: "20- 24", patient: 118 },
                         { name: "25 - 29", patient: 101 },
                         { name: "30 - 34", patient: 121 },
@@ -1727,7 +1727,7 @@ const newData = {
                         { name: "45 - 49", patient: 147 },
                         { name: "50 - 54", patient: 118 },
                         { name: "55 - 59", patient: 120 },
-                        { name: "มากกว่า 60", patient: 94 }]
+                        { name: "> 60", patient: 94 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 600,
@@ -1735,7 +1735,7 @@ const newData = {
                         { name: "หญิง", value: 600 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 37 },
+                        { name: "< 20", patient: 37 },
                         { name: "20- 24", patient: 78 },
                         { name: "25 - 29", patient: 68 },
                         { name: "30 - 34", patient: 65 },
@@ -1744,7 +1744,7 @@ const newData = {
                         { name: "45 - 49", patient: 67 },
                         { name: "50 - 54", patient: 76 },
                         { name: "55 - 59", patient: 44 },
-                        { name: "มากกว่า 60", patient: 57 }]
+                        { name: "> 60", patient: 57 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1150,
@@ -1752,7 +1752,7 @@ const newData = {
                         { name: "หญิง", value: 628 },
                         { name: "ชาย", value: 522 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 118 },
+                        { name: "< 20", patient: 118 },
                         { name: "20- 24", patient: 133 },
                         { name: "25 - 29", patient: 136 },
                         { name: "30 - 34", patient: 108 },
@@ -1761,7 +1761,7 @@ const newData = {
                         { name: "45 - 49", patient: 116 },
                         { name: "50 - 54", patient: 112 },
                         { name: "55 - 59", patient: 99 },
-                        { name: "มากกว่า 60", patient: 104 }]
+                        { name: "> 60", patient: 104 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1207,
@@ -1769,7 +1769,7 @@ const newData = {
                         { name: "หญิง", value: 623 },
                         { name: "ชาย", value: 584 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 137 },
+                        { name: "< 20", patient: 137 },
                         { name: "20- 24", patient: 127 },
                         { name: "25 - 29", patient: 107 },
                         { name: "30 - 34", patient: 131 },
@@ -1778,7 +1778,7 @@ const newData = {
                         { name: "45 - 49", patient: 115 },
                         { name: "50 - 54", patient: 120 },
                         { name: "55 - 59", patient: 123 },
-                        { name: "มากกว่า 60", patient: 95 }]
+                        { name: "> 60", patient: 95 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1226,
@@ -1786,7 +1786,7 @@ const newData = {
                         { name: "หญิง", value: 590 },
                         { name: "ชาย", value: 636 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 128 },
+                        { name: "< 20", patient: 128 },
                         { name: "20- 24", patient: 117 },
                         { name: "25 - 29", patient: 144 },
                         { name: "30 - 34", patient: 111 },
@@ -1795,7 +1795,7 @@ const newData = {
                         { name: "45 - 49", patient: 124 },
                         { name: "50 - 54", patient: 107 },
                         { name: "55 - 59", patient: 113 },
-                        { name: "มากกว่า 60", patient: 115 }]
+                        { name: "> 60", patient: 115 }]
                 },]
         },
         {
@@ -1809,7 +1809,7 @@ const newData = {
                         { name: "หญิง", value: 637 },
                         { name: "ชาย", value: 631 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 134 },
+                        { name: "< 20", patient: 134 },
                         { name: "20- 24", patient: 122 },
                         { name: "25 - 29", patient: 126 },
                         { name: "30 - 34", patient: 99 },
@@ -1818,7 +1818,7 @@ const newData = {
                         { name: "45 - 49", patient: 121 },
                         { name: "50 - 54", patient: 151 },
                         { name: "55 - 59", patient: 140 },
-                        { name: "มากกว่า 60", patient: 133 }]
+                        { name: "> 60", patient: 133 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 609,
@@ -1826,7 +1826,7 @@ const newData = {
                         { name: "หญิง", value: 609 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 56 },
+                        { name: "< 20", patient: 56 },
                         { name: "20- 24", patient: 56 },
                         { name: "25 - 29", patient: 63 },
                         { name: "30 - 34", patient: 67 },
@@ -1835,7 +1835,7 @@ const newData = {
                         { name: "45 - 49", patient: 56 },
                         { name: "50 - 54", patient: 69 },
                         { name: "55 - 59", patient: 75 },
-                        { name: "มากกว่า 60", patient: 59 }]
+                        { name: "> 60", patient: 59 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1139,
@@ -1843,7 +1843,7 @@ const newData = {
                         { name: "หญิง", value: 565 },
                         { name: "ชาย", value: 574 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 138 },
+                        { name: "< 20", patient: 138 },
                         { name: "20- 24", patient: 112 },
                         { name: "25 - 29", patient: 89 },
                         { name: "30 - 34", patient: 108 },
@@ -1852,7 +1852,7 @@ const newData = {
                         { name: "45 - 49", patient: 104 },
                         { name: "50 - 54", patient: 126 },
                         { name: "55 - 59", patient: 119 },
-                        { name: "มากกว่า 60", patient: 110 }]
+                        { name: "> 60", patient: 110 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1184,
@@ -1860,7 +1860,7 @@ const newData = {
                         { name: "หญิง", value: 601 },
                         { name: "ชาย", value: 583 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 127 },
+                        { name: "< 20", patient: 127 },
                         { name: "20- 24", patient: 107 },
                         { name: "25 - 29", patient: 108 },
                         { name: "30 - 34", patient: 115 },
@@ -1869,7 +1869,7 @@ const newData = {
                         { name: "45 - 49", patient: 133 },
                         { name: "50 - 54", patient: 114 },
                         { name: "55 - 59", patient: 115 },
-                        { name: "มากกว่า 60", patient: 118 }]
+                        { name: "> 60", patient: 118 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1162,
@@ -1877,7 +1877,7 @@ const newData = {
                         { name: "หญิง", value: 644 },
                         { name: "ชาย", value: 518 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 119 },
+                        { name: "< 20", patient: 119 },
                         { name: "20- 24", patient: 146 },
                         { name: "25 - 29", patient: 102 },
                         { name: "30 - 34", patient: 103 },
@@ -1886,7 +1886,7 @@ const newData = {
                         { name: "45 - 49", patient: 125 },
                         { name: "50 - 54", patient: 95 },
                         { name: "55 - 59", patient: 131 },
-                        { name: "มากกว่า 60", patient: 108 }]
+                        { name: "> 60", patient: 108 }]
                 },]
         },
         {
@@ -1900,7 +1900,7 @@ const newData = {
                         { name: "หญิง", value: 630 },
                         { name: "ชาย", value: 607 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 119 },
+                        { name: "< 20", patient: 119 },
                         { name: "20- 24", patient: 152 },
                         { name: "25 - 29", patient: 109 },
                         { name: "30 - 34", patient: 137 },
@@ -1909,7 +1909,7 @@ const newData = {
                         { name: "45 - 49", patient: 122 },
                         { name: "50 - 54", patient: 123 },
                         { name: "55 - 59", patient: 129 },
-                        { name: "มากกว่า 60", patient: 99 }]
+                        { name: "> 60", patient: 99 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 609,
@@ -1917,7 +1917,7 @@ const newData = {
                         { name: "หญิง", value: 609 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 66 },
+                        { name: "< 20", patient: 66 },
                         { name: "20- 24", patient: 65 },
                         { name: "25 - 29", patient: 60 },
                         { name: "30 - 34", patient: 50 },
@@ -1926,7 +1926,7 @@ const newData = {
                         { name: "45 - 49", patient: 58 },
                         { name: "50 - 54", patient: 57 },
                         { name: "55 - 59", patient: 75 },
-                        { name: "มากกว่า 60", patient: 56 }]
+                        { name: "> 60", patient: 56 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1165,
@@ -1934,7 +1934,7 @@ const newData = {
                         { name: "หญิง", value: 594 },
                         { name: "ชาย", value: 571 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 121 },
+                        { name: "< 20", patient: 121 },
                         { name: "20- 24", patient: 116 },
                         { name: "25 - 29", patient: 99 },
                         { name: "30 - 34", patient: 98 },
@@ -1943,7 +1943,7 @@ const newData = {
                         { name: "45 - 49", patient: 126 },
                         { name: "50 - 54", patient: 135 },
                         { name: "55 - 59", patient: 106 },
-                        { name: "มากกว่า 60", patient: 128 }]
+                        { name: "> 60", patient: 128 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1171,
@@ -1951,7 +1951,7 @@ const newData = {
                         { name: "หญิง", value: 608 },
                         { name: "ชาย", value: 563 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 144 },
+                        { name: "< 20", patient: 144 },
                         { name: "20- 24", patient: 92 },
                         { name: "25 - 29", patient: 123 },
                         { name: "30 - 34", patient: 137 },
@@ -1960,7 +1960,7 @@ const newData = {
                         { name: "45 - 49", patient: 115 },
                         { name: "50 - 54", patient: 108 },
                         { name: "55 - 59", patient: 120 },
-                        { name: "มากกว่า 60", patient: 101 }]
+                        { name: "> 60", patient: 101 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1168,
@@ -1968,7 +1968,7 @@ const newData = {
                         { name: "หญิง", value: 625 },
                         { name: "ชาย", value: 543 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 107 },
+                        { name: "< 20", patient: 107 },
                         { name: "20- 24", patient: 125 },
                         { name: "25 - 29", patient: 93 },
                         { name: "30 - 34", patient: 111 },
@@ -1977,7 +1977,7 @@ const newData = {
                         { name: "45 - 49", patient: 140 },
                         { name: "50 - 54", patient: 107 },
                         { name: "55 - 59", patient: 108 },
-                        { name: "มากกว่า 60", patient: 108 }]
+                        { name: "> 60", patient: 108 }]
                 },]
         },
         {
@@ -1991,7 +1991,7 @@ const newData = {
                         { name: "หญิง", value: 587 },
                         { name: "ชาย", value: 660 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 127 },
+                        { name: "< 20", patient: 127 },
                         { name: "20- 24", patient: 105 },
                         { name: "25 - 29", patient: 120 },
                         { name: "30 - 34", patient: 130 },
@@ -2000,7 +2000,7 @@ const newData = {
                         { name: "45 - 49", patient: 139 },
                         { name: "50 - 54", patient: 127 },
                         { name: "55 - 59", patient: 112 },
-                        { name: "มากกว่า 60", patient: 132 }]
+                        { name: "> 60", patient: 132 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 528,
@@ -2008,7 +2008,7 @@ const newData = {
                         { name: "หญิง", value: 528 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 59 },
+                        { name: "< 20", patient: 59 },
                         { name: "20- 24", patient: 47 },
                         { name: "25 - 29", patient: 56 },
                         { name: "30 - 34", patient: 48 },
@@ -2017,7 +2017,7 @@ const newData = {
                         { name: "45 - 49", patient: 57 },
                         { name: "50 - 54", patient: 49 },
                         { name: "55 - 59", patient: 37 },
-                        { name: "มากกว่า 60", patient: 67 }]
+                        { name: "> 60", patient: 67 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1237,
@@ -2025,7 +2025,7 @@ const newData = {
                         { name: "หญิง", value: 631 },
                         { name: "ชาย", value: 606 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 114 },
+                        { name: "< 20", patient: 114 },
                         { name: "20- 24", patient: 121 },
                         { name: "25 - 29", patient: 129 },
                         { name: "30 - 34", patient: 129 },
@@ -2034,7 +2034,7 @@ const newData = {
                         { name: "45 - 49", patient: 107 },
                         { name: "50 - 54", patient: 129 },
                         { name: "55 - 59", patient: 126 },
-                        { name: "มากกว่า 60", patient: 135 }]
+                        { name: "> 60", patient: 135 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1185,
@@ -2042,7 +2042,7 @@ const newData = {
                         { name: "หญิง", value: 594 },
                         { name: "ชาย", value: 591 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 110 },
+                        { name: "< 20", patient: 110 },
                         { name: "20- 24", patient: 113 },
                         { name: "25 - 29", patient: 133 },
                         { name: "30 - 34", patient: 118 },
@@ -2051,7 +2051,7 @@ const newData = {
                         { name: "45 - 49", patient: 123 },
                         { name: "50 - 54", patient: 114 },
                         { name: "55 - 59", patient: 102 },
-                        { name: "มากกว่า 60", patient: 128 }]
+                        { name: "> 60", patient: 128 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1154,
@@ -2059,7 +2059,7 @@ const newData = {
                         { name: "หญิง", value: 582 },
                         { name: "ชาย", value: 572 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 132 },
+                        { name: "< 20", patient: 132 },
                         { name: "20- 24", patient: 95 },
                         { name: "25 - 29", patient: 124 },
                         { name: "30 - 34", patient: 130 },
@@ -2068,7 +2068,7 @@ const newData = {
                         { name: "45 - 49", patient: 92 },
                         { name: "50 - 54", patient: 107 },
                         { name: "55 - 59", patient: 122 },
-                        { name: "มากกว่า 60", patient: 101 }]
+                        { name: "> 60", patient: 101 }]
                 },]
         },
         {
@@ -2082,7 +2082,7 @@ const newData = {
                         { name: "หญิง", value: 613 },
                         { name: "ชาย", value: 525 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 87 },
+                        { name: "< 20", patient: 87 },
                         { name: "20- 24", patient: 113 },
                         { name: "25 - 29", patient: 125 },
                         { name: "30 - 34", patient: 139 },
@@ -2091,7 +2091,7 @@ const newData = {
                         { name: "45 - 49", patient: 130 },
                         { name: "50 - 54", patient: 97 },
                         { name: "55 - 59", patient: 117 },
-                        { name: "มากกว่า 60", patient: 128 }]
+                        { name: "> 60", patient: 128 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 526,
@@ -2099,7 +2099,7 @@ const newData = {
                         { name: "หญิง", value: 526 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 56 },
+                        { name: "< 20", patient: 56 },
                         { name: "20- 24", patient: 63 },
                         { name: "25 - 29", patient: 37 },
                         { name: "30 - 34", patient: 73 },
@@ -2108,7 +2108,7 @@ const newData = {
                         { name: "45 - 49", patient: 45 },
                         { name: "50 - 54", patient: 58 },
                         { name: "55 - 59", patient: 21 },
-                        { name: "มากกว่า 60", patient: 44 }]
+                        { name: "> 60", patient: 44 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1169,
@@ -2116,7 +2116,7 @@ const newData = {
                         { name: "หญิง", value: 571 },
                         { name: "ชาย", value: 598 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 127 },
+                        { name: "< 20", patient: 127 },
                         { name: "20- 24", patient: 110 },
                         { name: "25 - 29", patient: 94 },
                         { name: "30 - 34", patient: 125 },
@@ -2125,7 +2125,7 @@ const newData = {
                         { name: "45 - 49", patient: 107 },
                         { name: "50 - 54", patient: 133 },
                         { name: "55 - 59", patient: 110 },
-                        { name: "มากกว่า 60", patient: 132 }]
+                        { name: "> 60", patient: 132 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1168,
@@ -2133,7 +2133,7 @@ const newData = {
                         { name: "หญิง", value: 560 },
                         { name: "ชาย", value: 608 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 108 },
+                        { name: "< 20", patient: 108 },
                         { name: "20- 24", patient: 117 },
                         { name: "25 - 29", patient: 108 },
                         { name: "30 - 34", patient: 106 },
@@ -2142,7 +2142,7 @@ const newData = {
                         { name: "45 - 49", patient: 112 },
                         { name: "50 - 54", patient: 116 },
                         { name: "55 - 59", patient: 128 },
-                        { name: "มากกว่า 60", patient: 143 }]
+                        { name: "> 60", patient: 143 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1180,
@@ -2150,7 +2150,7 @@ const newData = {
                         { name: "หญิง", value: 589 },
                         { name: "ชาย", value: 591 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 107 },
+                        { name: "< 20", patient: 107 },
                         { name: "20- 24", patient: 127 },
                         { name: "25 - 29", patient: 131 },
                         { name: "30 - 34", patient: 129 },
@@ -2159,7 +2159,7 @@ const newData = {
                         { name: "45 - 49", patient: 124 },
                         { name: "50 - 54", patient: 112 },
                         { name: "55 - 59", patient: 129 },
-                        { name: "มากกว่า 60", patient: 117 }]
+                        { name: "> 60", patient: 117 }]
                 },]
         },
         {
@@ -2173,7 +2173,7 @@ const newData = {
                         { name: "หญิง", value: 601 },
                         { name: "ชาย", value: 593 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 110 },
+                        { name: "< 20", patient: 110 },
                         { name: "20- 24", patient: 96 },
                         { name: "25 - 29", patient: 96 },
                         { name: "30 - 34", patient: 132 },
@@ -2182,7 +2182,7 @@ const newData = {
                         { name: "45 - 49", patient: 143 },
                         { name: "50 - 54", patient: 108 },
                         { name: "55 - 59", patient: 114 },
-                        { name: "มากกว่า 60", patient: 152 }]
+                        { name: "> 60", patient: 152 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 612,
@@ -2190,7 +2190,7 @@ const newData = {
                         { name: "หญิง", value: 612 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 51 },
+                        { name: "< 20", patient: 51 },
                         { name: "20- 24", patient: 52 },
                         { name: "25 - 29", patient: 59 },
                         { name: "30 - 34", patient: 58 },
@@ -2199,7 +2199,7 @@ const newData = {
                         { name: "45 - 49", patient: 78 },
                         { name: "50 - 54", patient: 42 },
                         { name: "55 - 59", patient: 73 },
-                        { name: "มากกว่า 60", patient: 60 }]
+                        { name: "> 60", patient: 60 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1201,
@@ -2207,7 +2207,7 @@ const newData = {
                         { name: "หญิง", value: 603 },
                         { name: "ชาย", value: 598 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 108 },
+                        { name: "< 20", patient: 108 },
                         { name: "20- 24", patient: 130 },
                         { name: "25 - 29", patient: 115 },
                         { name: "30 - 34", patient: 102 },
@@ -2216,7 +2216,7 @@ const newData = {
                         { name: "45 - 49", patient: 125 },
                         { name: "50 - 54", patient: 125 },
                         { name: "55 - 59", patient: 139 },
-                        { name: "มากกว่า 60", patient: 116 }]
+                        { name: "> 60", patient: 116 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1208,
@@ -2224,7 +2224,7 @@ const newData = {
                         { name: "หญิง", value: 590 },
                         { name: "ชาย", value: 618 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 125 },
+                        { name: "< 20", patient: 125 },
                         { name: "20- 24", patient: 124 },
                         { name: "25 - 29", patient: 113 },
                         { name: "30 - 34", patient: 115 },
@@ -2233,7 +2233,7 @@ const newData = {
                         { name: "45 - 49", patient: 134 },
                         { name: "50 - 54", patient: 125 },
                         { name: "55 - 59", patient: 106 },
-                        { name: "มากกว่า 60", patient: 147 }]
+                        { name: "> 60", patient: 147 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1256,
@@ -2241,7 +2241,7 @@ const newData = {
                         { name: "หญิง", value: 666 },
                         { name: "ชาย", value: 590 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 127 },
+                        { name: "< 20", patient: 127 },
                         { name: "20- 24", patient: 144 },
                         { name: "25 - 29", patient: 133 },
                         { name: "30 - 34", patient: 95 },
@@ -2250,7 +2250,7 @@ const newData = {
                         { name: "45 - 49", patient: 114 },
                         { name: "50 - 54", patient: 135 },
                         { name: "55 - 59", patient: 143 },
-                        { name: "มากกว่า 60", patient: 126 }]
+                        { name: "> 60", patient: 126 }]
                 },]
         },
         {
@@ -2264,7 +2264,7 @@ const newData = {
                         { name: "หญิง", value: 592 },
                         { name: "ชาย", value: 570 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 115 },
+                        { name: "< 20", patient: 115 },
                         { name: "20- 24", patient: 106 },
                         { name: "25 - 29", patient: 126 },
                         { name: "30 - 34", patient: 116 },
@@ -2273,7 +2273,7 @@ const newData = {
                         { name: "45 - 49", patient: 97 },
                         { name: "50 - 54", patient: 115 },
                         { name: "55 - 59", patient: 121 },
-                        { name: "มากกว่า 60", patient: 136 }]
+                        { name: "> 60", patient: 136 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 680,
@@ -2281,7 +2281,7 @@ const newData = {
                         { name: "หญิง", value: 680 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 69 },
+                        { name: "< 20", patient: 69 },
                         { name: "20- 24", patient: 65 },
                         { name: "25 - 29", patient: 77 },
                         { name: "30 - 34", patient: 65 },
@@ -2290,7 +2290,7 @@ const newData = {
                         { name: "45 - 49", patient: 59 },
                         { name: "50 - 54", patient: 90 },
                         { name: "55 - 59", patient: 66 },
-                        { name: "มากกว่า 60", patient: 77 }]
+                        { name: "> 60", patient: 77 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1198,
@@ -2298,7 +2298,7 @@ const newData = {
                         { name: "หญิง", value: 598 },
                         { name: "ชาย", value: 600 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 139 },
+                        { name: "< 20", patient: 139 },
                         { name: "20- 24", patient: 134 },
                         { name: "25 - 29", patient: 113 },
                         { name: "30 - 34", patient: 100 },
@@ -2307,7 +2307,7 @@ const newData = {
                         { name: "45 - 49", patient: 117 },
                         { name: "50 - 54", patient: 129 },
                         { name: "55 - 59", patient: 105 },
-                        { name: "มากกว่า 60", patient: 130 }]
+                        { name: "> 60", patient: 130 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1212,
@@ -2315,7 +2315,7 @@ const newData = {
                         { name: "หญิง", value: 600 },
                         { name: "ชาย", value: 612 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 111 },
+                        { name: "< 20", patient: 111 },
                         { name: "20- 24", patient: 121 },
                         { name: "25 - 29", patient: 106 },
                         { name: "30 - 34", patient: 119 },
@@ -2324,7 +2324,7 @@ const newData = {
                         { name: "45 - 49", patient: 147 },
                         { name: "50 - 54", patient: 134 },
                         { name: "55 - 59", patient: 115 },
-                        { name: "มากกว่า 60", patient: 132 }]
+                        { name: "> 60", patient: 132 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1237,
@@ -2332,7 +2332,7 @@ const newData = {
                         { name: "หญิง", value: 615 },
                         { name: "ชาย", value: 622 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 122 },
+                        { name: "< 20", patient: 122 },
                         { name: "20- 24", patient: 135 },
                         { name: "25 - 29", patient: 113 },
                         { name: "30 - 34", patient: 114 },
@@ -2341,7 +2341,7 @@ const newData = {
                         { name: "45 - 49", patient: 134 },
                         { name: "50 - 54", patient: 128 },
                         { name: "55 - 59", patient: 122 },
-                        { name: "มากกว่า 60", patient: 132 }]
+                        { name: "> 60", patient: 132 }]
                 },]
         },
         {
@@ -2355,7 +2355,7 @@ const newData = {
                         { name: "หญิง", value: 622 },
                         { name: "ชาย", value: 633 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 141 },
+                        { name: "< 20", patient: 141 },
                         { name: "20- 24", patient: 121 },
                         { name: "25 - 29", patient: 114 },
                         { name: "30 - 34", patient: 138 },
@@ -2364,7 +2364,7 @@ const newData = {
                         { name: "45 - 49", patient: 124 },
                         { name: "50 - 54", patient: 118 },
                         { name: "55 - 59", patient: 136 },
-                        { name: "มากกว่า 60", patient: 135 }]
+                        { name: "> 60", patient: 135 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 610,
@@ -2372,7 +2372,7 @@ const newData = {
                         { name: "หญิง", value: 610 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 44 },
+                        { name: "< 20", patient: 44 },
                         { name: "20- 24", patient: 65 },
                         { name: "25 - 29", patient: 58 },
                         { name: "30 - 34", patient: 66 },
@@ -2381,7 +2381,7 @@ const newData = {
                         { name: "45 - 49", patient: 57 },
                         { name: "50 - 54", patient: 60 },
                         { name: "55 - 59", patient: 54 },
-                        { name: "มากกว่า 60", patient: 87 }]
+                        { name: "> 60", patient: 87 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1183,
@@ -2389,7 +2389,7 @@ const newData = {
                         { name: "หญิง", value: 563 },
                         { name: "ชาย", value: 620 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 107 },
+                        { name: "< 20", patient: 107 },
                         { name: "20- 24", patient: 98 },
                         { name: "25 - 29", patient: 126 },
                         { name: "30 - 34", patient: 126 },
@@ -2398,7 +2398,7 @@ const newData = {
                         { name: "45 - 49", patient: 96 },
                         { name: "50 - 54", patient: 128 },
                         { name: "55 - 59", patient: 121 },
-                        { name: "มากกว่า 60", patient: 116 }]
+                        { name: "> 60", patient: 116 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1072,
@@ -2406,7 +2406,7 @@ const newData = {
                         { name: "หญิง", value: 498 },
                         { name: "ชาย", value: 574 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 103 },
+                        { name: "< 20", patient: 103 },
                         { name: "20- 24", patient: 110 },
                         { name: "25 - 29", patient: 95 },
                         { name: "30 - 34", patient: 89 },
@@ -2415,7 +2415,7 @@ const newData = {
                         { name: "45 - 49", patient: 128 },
                         { name: "50 - 54", patient: 96 },
                         { name: "55 - 59", patient: 114 },
-                        { name: "มากกว่า 60", patient: 111 }]
+                        { name: "> 60", patient: 111 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1175,
@@ -2423,7 +2423,7 @@ const newData = {
                         { name: "หญิง", value: 558 },
                         { name: "ชาย", value: 617 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 102 },
+                        { name: "< 20", patient: 102 },
                         { name: "20- 24", patient: 106 },
                         { name: "25 - 29", patient: 99 },
                         { name: "30 - 34", patient: 127 },
@@ -2432,7 +2432,7 @@ const newData = {
                         { name: "45 - 49", patient: 125 },
                         { name: "50 - 54", patient: 125 },
                         { name: "55 - 59", patient: 136 },
-                        { name: "มากกว่า 60", patient: 135 }]
+                        { name: "> 60", patient: 135 }]
                 },]
         },
         {
@@ -2446,7 +2446,7 @@ const newData = {
                         { name: "หญิง", value: 606 },
                         { name: "ชาย", value: 586 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 107 },
+                        { name: "< 20", patient: 107 },
                         { name: "20- 24", patient: 117 },
                         { name: "25 - 29", patient: 149 },
                         { name: "30 - 34", patient: 139 },
@@ -2455,7 +2455,7 @@ const newData = {
                         { name: "45 - 49", patient: 112 },
                         { name: "50 - 54", patient: 121 },
                         { name: "55 - 59", patient: 103 },
-                        { name: "มากกว่า 60", patient: 119 }]
+                        { name: "> 60", patient: 119 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 584,
@@ -2463,7 +2463,7 @@ const newData = {
                         { name: "หญิง", value: 584 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 38 },
+                        { name: "< 20", patient: 38 },
                         { name: "20- 24", patient: 54 },
                         { name: "25 - 29", patient: 75 },
                         { name: "30 - 34", patient: 64 },
@@ -2472,7 +2472,7 @@ const newData = {
                         { name: "45 - 49", patient: 49 },
                         { name: "50 - 54", patient: 60 },
                         { name: "55 - 59", patient: 70 },
-                        { name: "มากกว่า 60", patient: 60 }]
+                        { name: "> 60", patient: 60 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1160,
@@ -2480,7 +2480,7 @@ const newData = {
                         { name: "หญิง", value: 605 },
                         { name: "ชาย", value: 555 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 109 },
+                        { name: "< 20", patient: 109 },
                         { name: "20- 24", patient: 123 },
                         { name: "25 - 29", patient: 138 },
                         { name: "30 - 34", patient: 98 },
@@ -2489,7 +2489,7 @@ const newData = {
                         { name: "45 - 49", patient: 111 },
                         { name: "50 - 54", patient: 103 },
                         { name: "55 - 59", patient: 134 },
-                        { name: "มากกว่า 60", patient: 115 }]
+                        { name: "> 60", patient: 115 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1203,
@@ -2497,7 +2497,7 @@ const newData = {
                         { name: "หญิง", value: 613 },
                         { name: "ชาย", value: 590 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 144 },
+                        { name: "< 20", patient: 144 },
                         { name: "20- 24", patient: 141 },
                         { name: "25 - 29", patient: 110 },
                         { name: "30 - 34", patient: 104 },
@@ -2506,7 +2506,7 @@ const newData = {
                         { name: "45 - 49", patient: 119 },
                         { name: "50 - 54", patient: 143 },
                         { name: "55 - 59", patient: 111 },
-                        { name: "มากกว่า 60", patient: 121 }]
+                        { name: "> 60", patient: 121 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1186,
@@ -2514,7 +2514,7 @@ const newData = {
                         { name: "หญิง", value: 605 },
                         { name: "ชาย", value: 581 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 108 },
+                        { name: "< 20", patient: 108 },
                         { name: "20- 24", patient: 115 },
                         { name: "25 - 29", patient: 113 },
                         { name: "30 - 34", patient: 133 },
@@ -2523,7 +2523,7 @@ const newData = {
                         { name: "45 - 49", patient: 106 },
                         { name: "50 - 54", patient: 110 },
                         { name: "55 - 59", patient: 133 },
-                        { name: "มากกว่า 60", patient: 116 }]
+                        { name: "> 60", patient: 116 }]
                 },]
         },
         {
@@ -2537,7 +2537,7 @@ const newData = {
                         { name: "หญิง", value: 605 },
                         { name: "ชาย", value: 634 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 110 },
+                        { name: "< 20", patient: 110 },
                         { name: "20- 24", patient: 127 },
                         { name: "25 - 29", patient: 134 },
                         { name: "30 - 34", patient: 114 },
@@ -2546,7 +2546,7 @@ const newData = {
                         { name: "45 - 49", patient: 141 },
                         { name: "50 - 54", patient: 113 },
                         { name: "55 - 59", patient: 115 },
-                        { name: "มากกว่า 60", patient: 146 }]
+                        { name: "> 60", patient: 146 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 634,
@@ -2554,7 +2554,7 @@ const newData = {
                         { name: "หญิง", value: 634 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 76 },
+                        { name: "< 20", patient: 76 },
                         { name: "20- 24", patient: 69 },
                         { name: "25 - 29", patient: 58 },
                         { name: "30 - 34", patient: 66 },
@@ -2563,7 +2563,7 @@ const newData = {
                         { name: "45 - 49", patient: 57 },
                         { name: "50 - 54", patient: 52 },
                         { name: "55 - 59", patient: 66 },
-                        { name: "มากกว่า 60", patient: 68 }]
+                        { name: "> 60", patient: 68 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1193,
@@ -2571,7 +2571,7 @@ const newData = {
                         { name: "หญิง", value: 631 },
                         { name: "ชาย", value: 562 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 106 },
+                        { name: "< 20", patient: 106 },
                         { name: "20- 24", patient: 124 },
                         { name: "25 - 29", patient: 103 },
                         { name: "30 - 34", patient: 137 },
@@ -2580,7 +2580,7 @@ const newData = {
                         { name: "45 - 49", patient: 125 },
                         { name: "50 - 54", patient: 111 },
                         { name: "55 - 59", patient: 113 },
-                        { name: "มากกว่า 60", patient: 110 }]
+                        { name: "> 60", patient: 110 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1233,
@@ -2588,7 +2588,7 @@ const newData = {
                         { name: "หญิง", value: 624 },
                         { name: "ชาย", value: 609 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 115 },
+                        { name: "< 20", patient: 115 },
                         { name: "20- 24", patient: 133 },
                         { name: "25 - 29", patient: 137 },
                         { name: "30 - 34", patient: 111 },
@@ -2597,7 +2597,7 @@ const newData = {
                         { name: "45 - 49", patient: 116 },
                         { name: "50 - 54", patient: 118 },
                         { name: "55 - 59", patient: 114 },
-                        { name: "มากกว่า 60", patient: 132 }]
+                        { name: "> 60", patient: 132 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1215,
@@ -2605,7 +2605,7 @@ const newData = {
                         { name: "หญิง", value: 586 },
                         { name: "ชาย", value: 629 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 137 },
+                        { name: "< 20", patient: 137 },
                         { name: "20- 24", patient: 139 },
                         { name: "25 - 29", patient: 118 },
                         { name: "30 - 34", patient: 123 },
@@ -2614,7 +2614,7 @@ const newData = {
                         { name: "45 - 49", patient: 109 },
                         { name: "50 - 54", patient: 127 },
                         { name: "55 - 59", patient: 128 },
-                        { name: "มากกว่า 60", patient: 112 }]
+                        { name: "> 60", patient: 112 }]
                 },]
         },
         {
@@ -2628,7 +2628,7 @@ const newData = {
                         { name: "หญิง", value: 606 },
                         { name: "ชาย", value: 663 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 128 },
+                        { name: "< 20", patient: 128 },
                         { name: "20- 24", patient: 122 },
                         { name: "25 - 29", patient: 107 },
                         { name: "30 - 34", patient: 138 },
@@ -2637,7 +2637,7 @@ const newData = {
                         { name: "45 - 49", patient: 131 },
                         { name: "50 - 54", patient: 145 },
                         { name: "55 - 59", patient: 134 },
-                        { name: "มากกว่า 60", patient: 134 }]
+                        { name: "> 60", patient: 134 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 614,
@@ -2645,7 +2645,7 @@ const newData = {
                         { name: "หญิง", value: 614 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 81 },
+                        { name: "< 20", patient: 81 },
                         { name: "20- 24", patient: 64 },
                         { name: "25 - 29", patient: 73 },
                         { name: "30 - 34", patient: 69 },
@@ -2654,7 +2654,7 @@ const newData = {
                         { name: "45 - 49", patient: 49 },
                         { name: "50 - 54", patient: 57 },
                         { name: "55 - 59", patient: 61 },
-                        { name: "มากกว่า 60", patient: 68 }]
+                        { name: "> 60", patient: 68 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1296,
@@ -2662,7 +2662,7 @@ const newData = {
                         { name: "หญิง", value: 648 },
                         { name: "ชาย", value: 648 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 127 },
+                        { name: "< 20", patient: 127 },
                         { name: "20- 24", patient: 125 },
                         { name: "25 - 29", patient: 145 },
                         { name: "30 - 34", patient: 133 },
@@ -2671,7 +2671,7 @@ const newData = {
                         { name: "45 - 49", patient: 138 },
                         { name: "50 - 54", patient: 120 },
                         { name: "55 - 59", patient: 141 },
-                        { name: "มากกว่า 60", patient: 103 }]
+                        { name: "> 60", patient: 103 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1134,
@@ -2679,7 +2679,7 @@ const newData = {
                         { name: "หญิง", value: 539 },
                         { name: "ชาย", value: 595 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 141 },
+                        { name: "< 20", patient: 141 },
                         { name: "20- 24", patient: 97 },
                         { name: "25 - 29", patient: 129 },
                         { name: "30 - 34", patient: 107 },
@@ -2688,7 +2688,7 @@ const newData = {
                         { name: "45 - 49", patient: 93 },
                         { name: "50 - 54", patient: 128 },
                         { name: "55 - 59", patient: 106 },
-                        { name: "มากกว่า 60", patient: 106 }]
+                        { name: "> 60", patient: 106 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1197,
@@ -2696,7 +2696,7 @@ const newData = {
                         { name: "หญิง", value: 583 },
                         { name: "ชาย", value: 614 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 113 },
+                        { name: "< 20", patient: 113 },
                         { name: "20- 24", patient: 128 },
                         { name: "25 - 29", patient: 118 },
                         { name: "30 - 34", patient: 117 },
@@ -2705,7 +2705,7 @@ const newData = {
                         { name: "45 - 49", patient: 124 },
                         { name: "50 - 54", patient: 124 },
                         { name: "55 - 59", patient: 128 },
-                        { name: "มากกว่า 60", patient: 113 }]
+                        { name: "> 60", patient: 113 }]
                 },]
         },
         {
@@ -2719,7 +2719,7 @@ const newData = {
                         { name: "หญิง", value: 566 },
                         { name: "ชาย", value: 628 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 119 },
+                        { name: "< 20", patient: 119 },
                         { name: "20- 24", patient: 106 },
                         { name: "25 - 29", patient: 98 },
                         { name: "30 - 34", patient: 126 },
@@ -2728,7 +2728,7 @@ const newData = {
                         { name: "45 - 49", patient: 143 },
                         { name: "50 - 54", patient: 155 },
                         { name: "55 - 59", patient: 82 },
-                        { name: "มากกว่า 60", patient: 105 }]
+                        { name: "> 60", patient: 105 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 535,
@@ -2736,7 +2736,7 @@ const newData = {
                         { name: "หญิง", value: 535 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 51 },
+                        { name: "< 20", patient: 51 },
                         { name: "20- 24", patient: 43 },
                         { name: "25 - 29", patient: 47 },
                         { name: "30 - 34", patient: 59 },
@@ -2745,7 +2745,7 @@ const newData = {
                         { name: "45 - 49", patient: 53 },
                         { name: "50 - 54", patient: 58 },
                         { name: "55 - 59", patient: 64 },
-                        { name: "มากกว่า 60", patient: 45 }]
+                        { name: "> 60", patient: 45 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1255,
@@ -2753,7 +2753,7 @@ const newData = {
                         { name: "หญิง", value: 614 },
                         { name: "ชาย", value: 641 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 152 },
+                        { name: "< 20", patient: 152 },
                         { name: "20- 24", patient: 136 },
                         { name: "25 - 29", patient: 122 },
                         { name: "30 - 34", patient: 129 },
@@ -2762,7 +2762,7 @@ const newData = {
                         { name: "45 - 49", patient: 121 },
                         { name: "50 - 54", patient: 108 },
                         { name: "55 - 59", patient: 110 },
-                        { name: "มากกว่า 60", patient: 132 }]
+                        { name: "> 60", patient: 132 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1255,
@@ -2770,7 +2770,7 @@ const newData = {
                         { name: "หญิง", value: 576 },
                         { name: "ชาย", value: 679 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 109 },
+                        { name: "< 20", patient: 109 },
                         { name: "20- 24", patient: 110 },
                         { name: "25 - 29", patient: 118 },
                         { name: "30 - 34", patient: 132 },
@@ -2779,7 +2779,7 @@ const newData = {
                         { name: "45 - 49", patient: 144 },
                         { name: "50 - 54", patient: 152 },
                         { name: "55 - 59", patient: 115 },
-                        { name: "มากกว่า 60", patient: 128 }]
+                        { name: "> 60", patient: 128 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1211,
@@ -2787,7 +2787,7 @@ const newData = {
                         { name: "หญิง", value: 597 },
                         { name: "ชาย", value: 614 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 116 },
+                        { name: "< 20", patient: 116 },
                         { name: "20- 24", patient: 124 },
                         { name: "25 - 29", patient: 123 },
                         { name: "30 - 34", patient: 107 },
@@ -2796,7 +2796,7 @@ const newData = {
                         { name: "45 - 49", patient: 119 },
                         { name: "50 - 54", patient: 126 },
                         { name: "55 - 59", patient: 108 },
-                        { name: "มากกว่า 60", patient: 135 }]
+                        { name: "> 60", patient: 135 }]
                 },]
         },
         {
@@ -2810,7 +2810,7 @@ const newData = {
                         { name: "หญิง", value: 567 },
                         { name: "ชาย", value: 648 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 138 },
+                        { name: "< 20", patient: 138 },
                         { name: "20- 24", patient: 135 },
                         { name: "25 - 29", patient: 115 },
                         { name: "30 - 34", patient: 112 },
@@ -2819,7 +2819,7 @@ const newData = {
                         { name: "45 - 49", patient: 131 },
                         { name: "50 - 54", patient: 113 },
                         { name: "55 - 59", patient: 109 },
-                        { name: "มากกว่า 60", patient: 125 }]
+                        { name: "> 60", patient: 125 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 623,
@@ -2827,7 +2827,7 @@ const newData = {
                         { name: "หญิง", value: 623 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 64 },
+                        { name: "< 20", patient: 64 },
                         { name: "20- 24", patient: 49 },
                         { name: "25 - 29", patient: 61 },
                         { name: "30 - 34", patient: 77 },
@@ -2836,7 +2836,7 @@ const newData = {
                         { name: "45 - 49", patient: 56 },
                         { name: "50 - 54", patient: 61 },
                         { name: "55 - 59", patient: 57 },
-                        { name: "มากกว่า 60", patient: 74 }]
+                        { name: "> 60", patient: 74 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1221,
@@ -2844,7 +2844,7 @@ const newData = {
                         { name: "หญิง", value: 585 },
                         { name: "ชาย", value: 636 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 121 },
+                        { name: "< 20", patient: 121 },
                         { name: "20- 24", patient: 115 },
                         { name: "25 - 29", patient: 142 },
                         { name: "30 - 34", patient: 116 },
@@ -2853,7 +2853,7 @@ const newData = {
                         { name: "45 - 49", patient: 107 },
                         { name: "50 - 54", patient: 125 },
                         { name: "55 - 59", patient: 120 },
-                        { name: "มากกว่า 60", patient: 108 }]
+                        { name: "> 60", patient: 108 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1181,
@@ -2861,7 +2861,7 @@ const newData = {
                         { name: "หญิง", value: 588 },
                         { name: "ชาย", value: 593 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 89 },
+                        { name: "< 20", patient: 89 },
                         { name: "20- 24", patient: 129 },
                         { name: "25 - 29", patient: 135 },
                         { name: "30 - 34", patient: 112 },
@@ -2870,7 +2870,7 @@ const newData = {
                         { name: "45 - 49", patient: 124 },
                         { name: "50 - 54", patient: 120 },
                         { name: "55 - 59", patient: 117 },
-                        { name: "มากกว่า 60", patient: 108 }]
+                        { name: "> 60", patient: 108 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1282,
@@ -2878,7 +2878,7 @@ const newData = {
                         { name: "หญิง", value: 649 },
                         { name: "ชาย", value: 633 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 132 },
+                        { name: "< 20", patient: 132 },
                         { name: "20- 24", patient: 135 },
                         { name: "25 - 29", patient: 144 },
                         { name: "30 - 34", patient: 147 },
@@ -2887,7 +2887,7 @@ const newData = {
                         { name: "45 - 49", patient: 114 },
                         { name: "50 - 54", patient: 112 },
                         { name: "55 - 59", patient: 116 },
-                        { name: "มากกว่า 60", patient: 133 }]
+                        { name: "> 60", patient: 133 }]
                 },]
         },
         {
@@ -2901,7 +2901,7 @@ const newData = {
                         { name: "หญิง", value: 600 },
                         { name: "ชาย", value: 576 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 113 },
+                        { name: "< 20", patient: 113 },
                         { name: "20- 24", patient: 120 },
                         { name: "25 - 29", patient: 104 },
                         { name: "30 - 34", patient: 107 },
@@ -2910,7 +2910,7 @@ const newData = {
                         { name: "45 - 49", patient: 109 },
                         { name: "50 - 54", patient: 118 },
                         { name: "55 - 59", patient: 137 },
-                        { name: "มากกว่า 60", patient: 146 }]
+                        { name: "> 60", patient: 146 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 656,
@@ -2918,7 +2918,7 @@ const newData = {
                         { name: "หญิง", value: 656 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 76 },
+                        { name: "< 20", patient: 76 },
                         { name: "20- 24", patient: 61 },
                         { name: "25 - 29", patient: 81 },
                         { name: "30 - 34", patient: 63 },
@@ -2927,7 +2927,7 @@ const newData = {
                         { name: "45 - 49", patient: 63 },
                         { name: "50 - 54", patient: 65 },
                         { name: "55 - 59", patient: 58 },
-                        { name: "มากกว่า 60", patient: 57 }]
+                        { name: "> 60", patient: 57 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1182,
@@ -2935,7 +2935,7 @@ const newData = {
                         { name: "หญิง", value: 597 },
                         { name: "ชาย", value: 585 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 132 },
+                        { name: "< 20", patient: 132 },
                         { name: "20- 24", patient: 121 },
                         { name: "25 - 29", patient: 89 },
                         { name: "30 - 34", patient: 136 },
@@ -2944,7 +2944,7 @@ const newData = {
                         { name: "45 - 49", patient: 87 },
                         { name: "50 - 54", patient: 127 },
                         { name: "55 - 59", patient: 111 },
-                        { name: "มากกว่า 60", patient: 130 }]
+                        { name: "> 60", patient: 130 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1197,
@@ -2952,7 +2952,7 @@ const newData = {
                         { name: "หญิง", value: 602 },
                         { name: "ชาย", value: 595 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 102 },
+                        { name: "< 20", patient: 102 },
                         { name: "20- 24", patient: 140 },
                         { name: "25 - 29", patient: 105 },
                         { name: "30 - 34", patient: 120 },
@@ -2961,7 +2961,7 @@ const newData = {
                         { name: "45 - 49", patient: 107 },
                         { name: "50 - 54", patient: 98 },
                         { name: "55 - 59", patient: 133 },
-                        { name: "มากกว่า 60", patient: 120 }]
+                        { name: "> 60", patient: 120 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1216,
@@ -2969,7 +2969,7 @@ const newData = {
                         { name: "หญิง", value: 634 },
                         { name: "ชาย", value: 582 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 107 },
+                        { name: "< 20", patient: 107 },
                         { name: "20- 24", patient: 122 },
                         { name: "25 - 29", patient: 117 },
                         { name: "30 - 34", patient: 117 },
@@ -2978,7 +2978,7 @@ const newData = {
                         { name: "45 - 49", patient: 115 },
                         { name: "50 - 54", patient: 125 },
                         { name: "55 - 59", patient: 124 },
-                        { name: "มากกว่า 60", patient: 127 }]
+                        { name: "> 60", patient: 127 }]
                 },]
         },
         {
@@ -2992,7 +2992,7 @@ const newData = {
                         { name: "หญิง", value: 577 },
                         { name: "ชาย", value: 644 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 105 },
+                        { name: "< 20", patient: 105 },
                         { name: "20- 24", patient: 114 },
                         { name: "25 - 29", patient: 108 },
                         { name: "30 - 34", patient: 148 },
@@ -3001,7 +3001,7 @@ const newData = {
                         { name: "45 - 49", patient: 123 },
                         { name: "50 - 54", patient: 133 },
                         { name: "55 - 59", patient: 119 },
-                        { name: "มากกว่า 60", patient: 142 }]
+                        { name: "> 60", patient: 142 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 588,
@@ -3009,7 +3009,7 @@ const newData = {
                         { name: "หญิง", value: 588 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 50 },
+                        { name: "< 20", patient: 50 },
                         { name: "20- 24", patient: 65 },
                         { name: "25 - 29", patient: 48 },
                         { name: "30 - 34", patient: 61 },
@@ -3018,7 +3018,7 @@ const newData = {
                         { name: "45 - 49", patient: 55 },
                         { name: "50 - 54", patient: 56 },
                         { name: "55 - 59", patient: 63 },
-                        { name: "มากกว่า 60", patient: 58 }]
+                        { name: "> 60", patient: 58 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1268,
@@ -3026,7 +3026,7 @@ const newData = {
                         { name: "หญิง", value: 637 },
                         { name: "ชาย", value: 631 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 116 },
+                        { name: "< 20", patient: 116 },
                         { name: "20- 24", patient: 144 },
                         { name: "25 - 29", patient: 143 },
                         { name: "30 - 34", patient: 119 },
@@ -3035,7 +3035,7 @@ const newData = {
                         { name: "45 - 49", patient: 128 },
                         { name: "50 - 54", patient: 140 },
                         { name: "55 - 59", patient: 121 },
-                        { name: "มากกว่า 60", patient: 138 }]
+                        { name: "> 60", patient: 138 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1208,
@@ -3043,7 +3043,7 @@ const newData = {
                         { name: "หญิง", value: 584 },
                         { name: "ชาย", value: 624 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 145 },
+                        { name: "< 20", patient: 145 },
                         { name: "20- 24", patient: 109 },
                         { name: "25 - 29", patient: 112 },
                         { name: "30 - 34", patient: 113 },
@@ -3052,7 +3052,7 @@ const newData = {
                         { name: "45 - 49", patient: 125 },
                         { name: "50 - 54", patient: 117 },
                         { name: "55 - 59", patient: 117 },
-                        { name: "มากกว่า 60", patient: 105 }]
+                        { name: "> 60", patient: 105 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1170,
@@ -3060,7 +3060,7 @@ const newData = {
                         { name: "หญิง", value: 603 },
                         { name: "ชาย", value: 567 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 112 },
+                        { name: "< 20", patient: 112 },
                         { name: "20- 24", patient: 115 },
                         { name: "25 - 29", patient: 121 },
                         { name: "30 - 34", patient: 125 },
@@ -3069,7 +3069,7 @@ const newData = {
                         { name: "45 - 49", patient: 105 },
                         { name: "50 - 54", patient: 109 },
                         { name: "55 - 59", patient: 126 },
-                        { name: "มากกว่า 60", patient: 110 }]
+                        { name: "> 60", patient: 110 }]
                 },]
         },
     ],
@@ -3087,7 +3087,7 @@ const newData = {
                         { name: "ชาย", value: 589 },
                     ],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 119 },
+                        { name: "< 20", patient: 119 },
                         { name: "20- 24", patient: 136 },
                         { name: "25 - 29", patient: 122 },
                         { name: "30 - 34", patient: 121 },
@@ -3096,7 +3096,7 @@ const newData = {
                         { name: "45 - 49", patient: 116 },
                         { name: "50 - 54", patient: 142 },
                         { name: "55 - 59", patient: 116 },
-                        { name: "มากกว่า 60", patient: 112 }]
+                        { name: "> 60", patient: 112 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 597,
@@ -3104,7 +3104,7 @@ const newData = {
                         { name: "หญิง", value: 597 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 46 },
+                        { name: "< 20", patient: 46 },
                         { name: "20- 24", patient: 54 },
                         { name: "25 - 29", patient: 42 },
                         { name: "30 - 34", patient: 64 },
@@ -3113,7 +3113,7 @@ const newData = {
                         { name: "45 - 49", patient: 66 },
                         { name: "50 - 54", patient: 57 },
                         { name: "55 - 59", patient: 71 },
-                        { name: "มากกว่า 60", patient: 87 }]
+                        { name: "> 60", patient: 87 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1211,
@@ -3121,7 +3121,7 @@ const newData = {
                         { name: "หญิง", value: 567 },
                         { name: "ชาย", value: 644 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 127 },
+                        { name: "< 20", patient: 127 },
                         { name: "20- 24", patient: 131 },
                         { name: "25 - 29", patient: 123 },
                         { name: "30 - 34", patient: 135 },
@@ -3130,7 +3130,7 @@ const newData = {
                         { name: "45 - 49", patient: 115 },
                         { name: "50 - 54", patient: 111 },
                         { name: "55 - 59", patient: 129 },
-                        { name: "มากกว่า 60", patient: 93 }]
+                        { name: "> 60", patient: 93 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1233,
@@ -3138,7 +3138,7 @@ const newData = {
                         { name: "หญิง", value: 627 },
                         { name: "ชาย", value: 606 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 127 },
+                        { name: "< 20", patient: 127 },
                         { name: "20- 24", patient: 128 },
                         { name: "25 - 29", patient: 143 },
                         { name: "30 - 34", patient: 148 },
@@ -3147,7 +3147,7 @@ const newData = {
                         { name: "45 - 49", patient: 86 },
                         { name: "50 - 54", patient: 99 },
                         { name: "55 - 59", patient: 128 },
-                        { name: "มากกว่า 60", patient: 140 }]
+                        { name: "> 60", patient: 140 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1196,
@@ -3155,7 +3155,7 @@ const newData = {
                         { name: "หญิง", value: 596 },
                         { name: "ชาย", value: 600 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 134 },
+                        { name: "< 20", patient: 134 },
                         { name: "20- 24", patient: 105 },
                         { name: "25 - 29", patient: 108 },
                         { name: "30 - 34", patient: 121 },
@@ -3164,7 +3164,7 @@ const newData = {
                         { name: "45 - 49", patient: 99 },
                         { name: "50 - 54", patient: 135 },
                         { name: "55 - 59", patient: 123 },
-                        { name: "มากกว่า 60", patient: 115 }]
+                        { name: "> 60", patient: 115 }]
                 }
             ]
         },
@@ -3179,7 +3179,7 @@ const newData = {
                         { name: "หญิง", value: 629 },
                         { name: "ชาย", value: 613 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 104 },
+                        { name: "< 20", patient: 104 },
                         { name: "20- 24", patient: 114 },
                         { name: "25 - 29", patient: 131 },
                         { name: "30 - 34", patient: 159 },
@@ -3188,7 +3188,7 @@ const newData = {
                         { name: "45 - 49", patient: 113 },
                         { name: "50 - 54", patient: 97 },
                         { name: "55 - 59", patient: 140 },
-                        { name: "มากกว่า 60", patient: 172 }]
+                        { name: "> 60", patient: 172 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 616,
@@ -3196,7 +3196,7 @@ const newData = {
                         { name: "หญิง", value: 616 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 68 },
+                        { name: "< 20", patient: 68 },
                         { name: "20- 24", patient: 63 },
                         { name: "25 - 29", patient: 54 },
                         { name: "30 - 34", patient: 32 },
@@ -3205,7 +3205,7 @@ const newData = {
                         { name: "45 - 49", patient: 54 },
                         { name: "50 - 54", patient: 64 },
                         { name: "55 - 59", patient: 50 },
-                        { name: "มากกว่า 60", patient: 70 }]
+                        { name: "> 60", patient: 70 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1272,
@@ -3213,7 +3213,7 @@ const newData = {
                         { name: "หญิง", value: 607 },
                         { name: "ชาย", value: 665 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 132 },
+                        { name: "< 20", patient: 132 },
                         { name: "20- 24", patient: 121 },
                         { name: "25 - 29", patient: 130 },
                         { name: "30 - 34", patient: 114 },
@@ -3222,7 +3222,7 @@ const newData = {
                         { name: "45 - 49", patient: 1119 },
                         { name: "50 - 54", patient: 133 },
                         { name: "55 - 59", patient: 122 },
-                        { name: "มากกว่า 60", patient: 151 }]
+                        { name: "> 60", patient: 151 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1230,
@@ -3230,7 +3230,7 @@ const newData = {
                         { name: "หญิง", value: 548 },
                         { name: "ชาย", value: 682 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 125 },
+                        { name: "< 20", patient: 125 },
                         { name: "20- 24", patient: 120 },
                         { name: "25 - 29", patient: 122 },
                         { name: "30 - 34", patient: 115 },
@@ -3239,7 +3239,7 @@ const newData = {
                         { name: "45 - 49", patient: 139 },
                         { name: "50 - 54", patient: 145 },
                         { name: "55 - 59", patient: 121 },
-                        { name: "มากกว่า 60", patient: 115 }]
+                        { name: "> 60", patient: 115 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1112,
@@ -3247,7 +3247,7 @@ const newData = {
                         { name: "หญิง", value: 520 },
                         { name: "ชาย", value: 592 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 97 },
+                        { name: "< 20", patient: 97 },
                         { name: "20- 24", patient: 110 },
                         { name: "25 - 29", patient: 85 },
                         { name: "30 - 34", patient: 138 },
@@ -3256,7 +3256,7 @@ const newData = {
                         { name: "45 - 49", patient: 115 },
                         { name: "50 - 54", patient: 131 },
                         { name: "55 - 59", patient: 119 },
-                        { name: "มากกว่า 60", patient: 107 }]
+                        { name: "> 60", patient: 107 }]
                 },]
         },
         {
@@ -3270,7 +3270,7 @@ const newData = {
                         { name: "หญิง", value: 563 },
                         { name: "ชาย", value: 632 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 128 },
+                        { name: "< 20", patient: 128 },
                         { name: "20- 24", patient: 88 },
                         { name: "25 - 29", patient: 130 },
                         { name: "30 - 34", patient: 108 },
@@ -3279,7 +3279,7 @@ const newData = {
                         { name: "45 - 49", patient: 110 },
                         { name: "50 - 54", patient: 120 },
                         { name: "55 - 59", patient: 125 },
-                        { name: "มากกว่า 60", patient: 130 }]
+                        { name: "> 60", patient: 130 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 641,
@@ -3287,7 +3287,7 @@ const newData = {
                         { name: "หญิง", value: 641 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 73 },
+                        { name: "< 20", patient: 73 },
                         { name: "20- 24", patient: 68 },
                         { name: "25 - 29", patient: 66 },
                         { name: "30 - 34", patient: 87 },
@@ -3296,7 +3296,7 @@ const newData = {
                         { name: "45 - 49", patient: 71 },
                         { name: "50 - 54", patient: 57 },
                         { name: "55 - 59", patient: 63 },
-                        { name: "มากกว่า 60", patient: 54 }]
+                        { name: "> 60", patient: 54 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1172,
@@ -3304,7 +3304,7 @@ const newData = {
                         { name: "หญิง", value: 608 },
                         { name: "ชาย", value: 564 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 122 },
+                        { name: "< 20", patient: 122 },
                         { name: "20- 24", patient: 130 },
                         { name: "25 - 29", patient: 100 },
                         { name: "30 - 34", patient: 111 },
@@ -3313,7 +3313,7 @@ const newData = {
                         { name: "45 - 49", patient: 116 },
                         { name: "50 - 54", patient: 114 },
                         { name: "55 - 59", patient: 138 },
-                        { name: "มากกว่า 60", patient: 131 }]
+                        { name: "> 60", patient: 131 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1167,
@@ -3321,7 +3321,7 @@ const newData = {
                         { name: "หญิง", value: 588 },
                         { name: "ชาย", value: 579 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 144 },
+                        { name: "< 20", patient: 144 },
                         { name: "20- 24", patient: 91 },
                         { name: "25 - 29", patient: 122 },
                         { name: "30 - 34", patient: 120 },
@@ -3330,7 +3330,7 @@ const newData = {
                         { name: "45 - 49", patient: 110 },
                         { name: "50 - 54", patient: 104 },
                         { name: "55 - 59", patient: 120 },
-                        { name: "มากกว่า 60", patient: 119 }]
+                        { name: "> 60", patient: 119 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1182,
@@ -3338,7 +3338,7 @@ const newData = {
                         { name: "หญิง", value: 590 },
                         { name: "ชาย", value: 592 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 131 },
+                        { name: "< 20", patient: 131 },
                         { name: "20- 24", patient: 128 },
                         { name: "25 - 29", patient: 117 },
                         { name: "30 - 34", patient: 114 },
@@ -3347,7 +3347,7 @@ const newData = {
                         { name: "45 - 49", patient: 118 },
                         { name: "50 - 54", patient: 113 },
                         { name: "55 - 59", patient: 129 },
-                        { name: "มากกว่า 60", patient: 117 }]
+                        { name: "> 60", patient: 117 }]
                 },]
         },
         {
@@ -3361,7 +3361,7 @@ const newData = {
                         { name: "หญิง", value: 635 },
                         { name: "ชาย", value: 589 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 121 },
+                        { name: "< 20", patient: 121 },
                         { name: "20- 24", patient: 111 },
                         { name: "25 - 29", patient: 133 },
                         { name: "30 - 34", patient: 141 },
@@ -3370,7 +3370,7 @@ const newData = {
                         { name: "45 - 49", patient: 123 },
                         { name: "50 - 54", patient: 143 },
                         { name: "55 - 59", patient: 117 },
-                        { name: "มากกว่า 60", patient: 126 }]
+                        { name: "> 60", patient: 126 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 582,
@@ -3378,7 +3378,7 @@ const newData = {
                         { name: "หญิง", value: 582 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 45 },
+                        { name: "< 20", patient: 45 },
                         { name: "20- 24", patient: 46 },
                         { name: "25 - 29", patient: 68 },
                         { name: "30 - 34", patient: 44 },
@@ -3387,7 +3387,7 @@ const newData = {
                         { name: "45 - 49", patient: 64 },
                         { name: "50 - 54", patient: 66 },
                         { name: "55 - 59", patient: 47 },
-                        { name: "มากกว่า 60", patient: 72 }]
+                        { name: "> 60", patient: 72 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1071,
@@ -3395,7 +3395,7 @@ const newData = {
                         { name: "หญิง", value: 543 },
                         { name: "ชาย", value: 528 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 99 },
+                        { name: "< 20", patient: 99 },
                         { name: "20- 24", patient: 94 },
                         { name: "25 - 29", patient: 105 },
                         { name: "30 - 34", patient: 103 },
@@ -3404,7 +3404,7 @@ const newData = {
                         { name: "45 - 49", patient: 120 },
                         { name: "50 - 54", patient: 127 },
                         { name: "55 - 59", patient: 111 },
-                        { name: "มากกว่า 60", patient: 128 }]
+                        { name: "> 60", patient: 128 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1224,
@@ -3412,7 +3412,7 @@ const newData = {
                         { name: "หญิง", value: 615 },
                         { name: "ชาย", value: 609 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 97 },
+                        { name: "< 20", patient: 97 },
                         { name: "20- 24", patient: 118 },
                         { name: "25 - 29", patient: 141 },
                         { name: "30 - 34", patient: 140 },
@@ -3421,7 +3421,7 @@ const newData = {
                         { name: "45 - 49", patient: 117 },
                         { name: "50 - 54", patient: 109 },
                         { name: "55 - 59", patient: 126 },
-                        { name: "มากกว่า 60", patient: 119 }]
+                        { name: "> 60", patient: 119 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1154,
@@ -3429,7 +3429,7 @@ const newData = {
                         { name: "หญิง", value: 558 },
                         { name: "ชาย", value: 596 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 107 },
+                        { name: "< 20", patient: 107 },
                         { name: "20- 24", patient: 122 },
                         { name: "25 - 29", patient: 111 },
                         { name: "30 - 34", patient: 132 },
@@ -3438,7 +3438,7 @@ const newData = {
                         { name: "45 - 49", patient: 89 },
                         { name: "50 - 54", patient: 113 },
                         { name: "55 - 59", patient: 108 },
-                        { name: "มากกว่า 60", patient: 1023 }]
+                        { name: "> 60", patient: 1023 }]
                 },]
         },
         {
@@ -3452,7 +3452,7 @@ const newData = {
                         { name: "หญิง", value: 587 },
                         { name: "ชาย", value: 578 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 108 },
+                        { name: "< 20", patient: 108 },
                         { name: "20- 24", patient: 102 },
                         { name: "25 - 29", patient: 127 },
                         { name: "30 - 34", patient: 94 },
@@ -3461,7 +3461,7 @@ const newData = {
                         { name: "45 - 49", patient: 128 },
                         { name: "50 - 54", patient: 125 },
                         { name: "55 - 59", patient: 106 },
-                        { name: "มากกว่า 60", patient: 127 }]
+                        { name: "> 60", patient: 127 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 630,
@@ -3469,7 +3469,7 @@ const newData = {
                         { name: "หญิง", value: 630 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 65 },
+                        { name: "< 20", patient: 65 },
                         { name: "20- 24", patient: 82 },
                         { name: "25 - 29", patient: 69 },
                         { name: "30 - 34", patient: 68 },
@@ -3478,7 +3478,7 @@ const newData = {
                         { name: "45 - 49", patient: 58 },
                         { name: "50 - 54", patient: 75 },
                         { name: "55 - 59", patient: 62 },
-                        { name: "มากกว่า 60", patient: 52 }]
+                        { name: "> 60", patient: 52 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1240,
@@ -3486,7 +3486,7 @@ const newData = {
                         { name: "หญิง", value: 620 },
                         { name: "ชาย", value: 620 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 107 },
+                        { name: "< 20", patient: 107 },
                         { name: "20- 24", patient: 134 },
                         { name: "25 - 29", patient: 107 },
                         { name: "30 - 34", patient: 158 },
@@ -3495,7 +3495,7 @@ const newData = {
                         { name: "45 - 49", patient: 107 },
                         { name: "50 - 54", patient: 114 },
                         { name: "55 - 59", patient: 122 },
-                        { name: "มากกว่า 60", patient: 117 }]
+                        { name: "> 60", patient: 117 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1185,
@@ -3503,7 +3503,7 @@ const newData = {
                         { name: "หญิง", value: 588 },
                         { name: "ชาย", value: 597 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 132 },
+                        { name: "< 20", patient: 132 },
                         { name: "20- 24", patient: 118 },
                         { name: "25 - 29", patient: 119 },
                         { name: "30 - 34", patient: 127 },
@@ -3512,7 +3512,7 @@ const newData = {
                         { name: "45 - 49", patient: 109 },
                         { name: "50 - 54", patient: 113 },
                         { name: "55 - 59", patient: 101 },
-                        { name: "มากกว่า 60", patient: 131 }]
+                        { name: "> 60", patient: 131 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1149,
@@ -3520,7 +3520,7 @@ const newData = {
                         { name: "หญิง", value: 604 },
                         { name: "ชาย", value: 545 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 130 },
+                        { name: "< 20", patient: 130 },
                         { name: "20- 24", patient: 122 },
                         { name: "25 - 29", patient: 111 },
                         { name: "30 - 34", patient: 130 },
@@ -3529,7 +3529,7 @@ const newData = {
                         { name: "45 - 49", patient: 143 },
                         { name: "50 - 54", patient: 96 },
                         { name: "55 - 59", patient: 108 },
-                        { name: "มากกว่า 60", patient: 102 }]
+                        { name: "> 60", patient: 102 }]
                 },]
         },
         {
@@ -3543,7 +3543,7 @@ const newData = {
                         { name: "หญิง", value: 568 },
                         { name: "ชาย", value: 614 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 140 },
+                        { name: "< 20", patient: 140 },
                         { name: "20- 24", patient: 112 },
                         { name: "25 - 29", patient: 131 },
                         { name: "30 - 34", patient: 100 },
@@ -3552,7 +3552,7 @@ const newData = {
                         { name: "45 - 49", patient: 111 },
                         { name: "50 - 54", patient: 95 },
                         { name: "55 - 59", patient: 120 },
-                        { name: "มากกว่า 60", patient: 118 }]
+                        { name: "> 60", patient: 118 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 589,
@@ -3560,7 +3560,7 @@ const newData = {
                         { name: "หญิง", value: 589 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 66 },
+                        { name: "< 20", patient: 66 },
                         { name: "20- 24", patient: 72 },
                         { name: "25 - 29", patient: 60 },
                         { name: "30 - 34", patient: 66 },
@@ -3569,7 +3569,7 @@ const newData = {
                         { name: "45 - 49", patient: 56 },
                         { name: "50 - 54", patient: 64 },
                         { name: "55 - 59", patient: 39 },
-                        { name: "มากกว่า 60", patient: 61 }]
+                        { name: "> 60", patient: 61 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1212,
@@ -3577,7 +3577,7 @@ const newData = {
                         { name: "หญิง", value: 578 },
                         { name: "ชาย", value: 634 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 115 },
+                        { name: "< 20", patient: 115 },
                         { name: "20- 24", patient: 127 },
                         { name: "25 - 29", patient: 138 },
                         { name: "30 - 34", patient: 125 },
@@ -3586,7 +3586,7 @@ const newData = {
                         { name: "45 - 49", patient: 137 },
                         { name: "50 - 54", patient: 111 },
                         { name: "55 - 59", patient: 121 },
-                        { name: "มากกว่า 60", patient: 123 }]
+                        { name: "> 60", patient: 123 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1119,
@@ -3594,7 +3594,7 @@ const newData = {
                         { name: "หญิง", value: 579 },
                         { name: "ชาย", value: 540 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 127 },
+                        { name: "< 20", patient: 127 },
                         { name: "20- 24", patient: 119 },
                         { name: "25 - 29", patient: 132 },
                         { name: "30 - 34", patient: 102 },
@@ -3603,7 +3603,7 @@ const newData = {
                         { name: "45 - 49", patient: 116 },
                         { name: "50 - 54", patient: 106 },
                         { name: "55 - 59", patient: 101 },
-                        { name: "มากกว่า 60", patient: 114 }]
+                        { name: "> 60", patient: 114 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1186,
@@ -3611,7 +3611,7 @@ const newData = {
                         { name: "หญิง", value: 580 },
                         { name: "ชาย", value: 606 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 123 },
+                        { name: "< 20", patient: 123 },
                         { name: "20- 24", patient: 122 },
                         { name: "25 - 29", patient: 107 },
                         { name: "30 - 34", patient: 130 },
@@ -3620,7 +3620,7 @@ const newData = {
                         { name: "45 - 49", patient: 119 },
                         { name: "50 - 54", patient: 116 },
                         { name: "55 - 59", patient: 126 },
-                        { name: "มากกว่า 60", patient: 105 }]
+                        { name: "> 60", patient: 105 }]
                 },]
         },
         {
@@ -3634,7 +3634,7 @@ const newData = {
                         { name: "หญิง", value: 579 },
                         { name: "ชาย", value: 593 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 132 },
+                        { name: "< 20", patient: 132 },
                         { name: "20- 24", patient: 131 },
                         { name: "25 - 29", patient: 114 },
                         { name: "30 - 34", patient: 125 },
@@ -3643,7 +3643,7 @@ const newData = {
                         { name: "45 - 49", patient: 108 },
                         { name: "50 - 54", patient: 104 },
                         { name: "55 - 59", patient: 116 },
-                        { name: "มากกว่า 60", patient: 109 }]
+                        { name: "> 60", patient: 109 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 623,
@@ -3651,7 +3651,7 @@ const newData = {
                         { name: "หญิง", value: 623 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 55 },
+                        { name: "< 20", patient: 55 },
                         { name: "20- 24", patient: 60 },
                         { name: "25 - 29", patient: 63 },
                         { name: "30 - 34", patient: 67 },
@@ -3660,7 +3660,7 @@ const newData = {
                         { name: "45 - 49", patient: 83 },
                         { name: "50 - 54", patient: 60 },
                         { name: "55 - 59", patient: 63 },
-                        { name: "มากกว่า 60", patient: 46 }]
+                        { name: "> 60", patient: 46 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1292,
@@ -3668,7 +3668,7 @@ const newData = {
                         { name: "หญิง", value: 674 },
                         { name: "ชาย", value: 618 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 110 },
+                        { name: "< 20", patient: 110 },
                         { name: "20- 24", patient: 135 },
                         { name: "25 - 29", patient: 114 },
                         { name: "30 - 34", patient: 134 },
@@ -3677,7 +3677,7 @@ const newData = {
                         { name: "45 - 49", patient: 142 },
                         { name: "50 - 54", patient: 134 },
                         { name: "55 - 59", patient: 154 },
-                        { name: "มากกว่า 60", patient: 102 }]
+                        { name: "> 60", patient: 102 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1114,
@@ -3685,7 +3685,7 @@ const newData = {
                         { name: "หญิง", value: 567 },
                         { name: "ชาย", value: 574 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 103 },
+                        { name: "< 20", patient: 103 },
                         { name: "20- 24", patient: 109 },
                         { name: "25 - 29", patient: 108 },
                         { name: "30 - 34", patient: 101 },
@@ -3694,7 +3694,7 @@ const newData = {
                         { name: "45 - 49", patient: 123 },
                         { name: "50 - 54", patient: 123 },
                         { name: "55 - 59", patient: 113 },
-                        { name: "มากกว่า 60", patient: 130 }]
+                        { name: "> 60", patient: 130 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1076,
@@ -3702,7 +3702,7 @@ const newData = {
                         { name: "หญิง", value: 556 },
                         { name: "ชาย", value: 523 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 88 },
+                        { name: "< 20", patient: 88 },
                         { name: "20- 24", patient: 100 },
                         { name: "25 - 29", patient: 111 },
                         { name: "30 - 34", patient: 119 },
@@ -3711,7 +3711,7 @@ const newData = {
                         { name: "45 - 49", patient: 91 },
                         { name: "50 - 54", patient: 96 },
                         { name: "55 - 59", patient: 108 },
-                        { name: "มากกว่า 60", patient: 132 }]
+                        { name: "> 60", patient: 132 }]
                 },]
         },
         {
@@ -3725,7 +3725,7 @@ const newData = {
                         { name: "หญิง", value: 658 },
                         { name: "ชาย", value: 601 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 120 },
+                        { name: "< 20", patient: 120 },
                         { name: "20- 24", patient: 124 },
                         { name: "25 - 29", patient: 139 },
                         { name: "30 - 34", patient: 130 },
@@ -3734,7 +3734,7 @@ const newData = {
                         { name: "45 - 49", patient: 123 },
                         { name: "50 - 54", patient: 120 },
                         { name: "55 - 59", patient: 131 },
-                        { name: "มากกว่า 60", patient: 118 }]
+                        { name: "> 60", patient: 118 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 649,
@@ -3742,7 +3742,7 @@ const newData = {
                         { name: "หญิง", value: 649 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 79 },
+                        { name: "< 20", patient: 79 },
                         { name: "20- 24", patient: 66 },
                         { name: "25 - 29", patient: 61 },
                         { name: "30 - 34", patient: 48 },
@@ -3751,7 +3751,7 @@ const newData = {
                         { name: "45 - 49", patient: 47 },
                         { name: "50 - 54", patient: 68 },
                         { name: "55 - 59", patient: 60 },
-                        { name: "มากกว่า 60", patient: 60 }]
+                        { name: "> 60", patient: 60 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1191,
@@ -3759,7 +3759,7 @@ const newData = {
                         { name: "หญิง", value: 595 },
                         { name: "ชาย", value: 596 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 108 },
+                        { name: "< 20", patient: 108 },
                         { name: "20- 24", patient: 113 },
                         { name: "25 - 29", patient: 120 },
                         { name: "30 - 34", patient: 129 },
@@ -3768,7 +3768,7 @@ const newData = {
                         { name: "45 - 49", patient: 123 },
                         { name: "50 - 54", patient: 98 },
                         { name: "55 - 59", patient: 118 },
-                        { name: "มากกว่า 60", patient: 128 }]
+                        { name: "> 60", patient: 128 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1280,
@@ -3776,7 +3776,7 @@ const newData = {
                         { name: "หญิง", value: 603 },
                         { name: "ชาย", value: 677 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 137 },
+                        { name: "< 20", patient: 137 },
                         { name: "20- 24", patient: 115 },
                         { name: "25 - 29", patient: 143 },
                         { name: "30 - 34", patient: 121 },
@@ -3785,7 +3785,7 @@ const newData = {
                         { name: "45 - 49", patient: 115 },
                         { name: "50 - 54", patient: 123 },
                         { name: "55 - 59", patient: 145 },
-                        { name: "มากกว่า 60", patient: 113 }]
+                        { name: "> 60", patient: 113 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1233,
@@ -3793,7 +3793,7 @@ const newData = {
                         { name: "หญิง", value: 630 },
                         { name: "ชาย", value: 603 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 130 },
+                        { name: "< 20", patient: 130 },
                         { name: "20- 24", patient: 120 },
                         { name: "25 - 29", patient: 128 },
                         { name: "30 - 34", patient: 121 },
@@ -3802,7 +3802,7 @@ const newData = {
                         { name: "45 - 49", patient: 116 },
                         { name: "50 - 54", patient: 130 },
                         { name: "55 - 59", patient: 114 },
-                        { name: "มากกว่า 60", patient: 95 }]
+                        { name: "> 60", patient: 95 }]
                 },]
         },
         {
@@ -3816,7 +3816,7 @@ const newData = {
                         { name: "หญิง", value: 607 },
                         { name: "ชาย", value: 563 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 100 },
+                        { name: "< 20", patient: 100 },
                         { name: "20- 24", patient: 106 },
                         { name: "25 - 29", patient: 138 },
                         { name: "30 - 34", patient: 106 },
@@ -3825,7 +3825,7 @@ const newData = {
                         { name: "45 - 49", patient: 124 },
                         { name: "50 - 54", patient: 121 },
                         { name: "55 - 59", patient: 134 },
-                        { name: "มากกว่า 60", patient: 92 }]
+                        { name: "> 60", patient: 92 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 575,
@@ -3833,7 +3833,7 @@ const newData = {
                         { name: "หญิง", value: 575 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 66 },
+                        { name: "< 20", patient: 66 },
                         { name: "20- 24", patient: 69 },
                         { name: "25 - 29", patient: 61 },
                         { name: "30 - 34", patient: 61 },
@@ -3842,7 +3842,7 @@ const newData = {
                         { name: "45 - 49", patient: 61 },
                         { name: "50 - 54", patient: 54 },
                         { name: "55 - 59", patient: 47 },
-                        { name: "มากกว่า 60", patient: 57 }]
+                        { name: "> 60", patient: 57 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1199,
@@ -3850,7 +3850,7 @@ const newData = {
                         { name: "หญิง", value: 604 },
                         { name: "ชาย", value: 595 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 112 },
+                        { name: "< 20", patient: 112 },
                         { name: "20- 24", patient: 130 },
                         { name: "25 - 29", patient: 112 },
                         { name: "30 - 34", patient: 113 },
@@ -3859,7 +3859,7 @@ const newData = {
                         { name: "45 - 49", patient: 113 },
                         { name: "50 - 54", patient: 117 },
                         { name: "55 - 59", patient: 150 },
-                        { name: "มากกว่า 60", patient: 116 }]
+                        { name: "> 60", patient: 116 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1262,
@@ -3867,7 +3867,7 @@ const newData = {
                         { name: "หญิง", value: 653 },
                         { name: "ชาย", value: 609 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 93 },
+                        { name: "< 20", patient: 93 },
                         { name: "20- 24", patient: 122 },
                         { name: "25 - 29", patient: 128 },
                         { name: "30 - 34", patient: 139 },
@@ -3876,7 +3876,7 @@ const newData = {
                         { name: "45 - 49", patient: 127 },
                         { name: "50 - 54", patient: 149 },
                         { name: "55 - 59", patient: 127 },
-                        { name: "มากกว่า 60", patient: 140 }]
+                        { name: "> 60", patient: 140 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1176,
@@ -3884,7 +3884,7 @@ const newData = {
                         { name: "หญิง", value: 537 },
                         { name: "ชาย", value: 639 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 100 },
+                        { name: "< 20", patient: 100 },
                         { name: "20- 24", patient: 121 },
                         { name: "25 - 29", patient: 132 },
                         { name: "30 - 34", patient: 118 },
@@ -3893,7 +3893,7 @@ const newData = {
                         { name: "45 - 49", patient: 114 },
                         { name: "50 - 54", patient: 122 },
                         { name: "55 - 59", patient: 141 },
-                        { name: "มากกว่า 60", patient: 123 }]
+                        { name: "> 60", patient: 123 }]
                 },]
         },
         {
@@ -3907,7 +3907,7 @@ const newData = {
                         { name: "หญิง", value: 626 },
                         { name: "ชาย", value: 581 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 110 },
+                        { name: "< 20", patient: 110 },
                         { name: "20- 24", patient: 119 },
                         { name: "25 - 29", patient: 110 },
                         { name: "30 - 34", patient: 128 },
@@ -3916,7 +3916,7 @@ const newData = {
                         { name: "45 - 49", patient: 116 },
                         { name: "50 - 54", patient: 102 },
                         { name: "55 - 59", patient: 137 },
-                        { name: "มากกว่า 60", patient: 107 }]
+                        { name: "> 60", patient: 107 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 586,
@@ -3924,7 +3924,7 @@ const newData = {
                         { name: "หญิง", value: 586 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 55 },
+                        { name: "< 20", patient: 55 },
                         { name: "20- 24", patient: 59 },
                         { name: "25 - 29", patient: 73 },
                         { name: "30 - 34", patient: 51 },
@@ -3933,7 +3933,7 @@ const newData = {
                         { name: "45 - 49", patient: 62 },
                         { name: "50 - 54", patient: 65 },
                         { name: "55 - 59", patient: 50 },
-                        { name: "มากกว่า 60", patient: 64 }]
+                        { name: "> 60", patient: 64 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1128,
@@ -3941,7 +3941,7 @@ const newData = {
                         { name: "หญิง", value: 606 },
                         { name: "ชาย", value: 522 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 106 },
+                        { name: "< 20", patient: 106 },
                         { name: "20- 24", patient: 108 },
                         { name: "25 - 29", patient: 101 },
                         { name: "30 - 34", patient: 87 },
@@ -3950,7 +3950,7 @@ const newData = {
                         { name: "45 - 49", patient: 122 },
                         { name: "50 - 54", patient: 124 },
                         { name: "55 - 59", patient: 109 },
-                        { name: "มากกว่า 60", patient: 142 }]
+                        { name: "> 60", patient: 142 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1221,
@@ -3958,7 +3958,7 @@ const newData = {
                         { name: "หญิง", value: 620 },
                         { name: "ชาย", value: 601 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 123 },
+                        { name: "< 20", patient: 123 },
                         { name: "20- 24", patient: 126 },
                         { name: "25 - 29", patient: 135 },
                         { name: "30 - 34", patient: 131 },
@@ -3967,7 +3967,7 @@ const newData = {
                         { name: "45 - 49", patient: 133 },
                         { name: "50 - 54", patient: 82 },
                         { name: "55 - 59", patient: 122 },
-                        { name: "มากกว่า 60", patient: 108 }]
+                        { name: "> 60", patient: 108 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1199,
@@ -3975,7 +3975,7 @@ const newData = {
                         { name: "หญิง", value: 580 },
                         { name: "ชาย", value: 619 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 97 },
+                        { name: "< 20", patient: 97 },
                         { name: "20- 24", patient: 132 },
                         { name: "25 - 29", patient: 133 },
                         { name: "30 - 34", patient: 107 },
@@ -3984,7 +3984,7 @@ const newData = {
                         { name: "45 - 49", patient: 104 },
                         { name: "50 - 54", patient: 114 },
                         { name: "55 - 59", patient: 146 },
-                        { name: "มากกว่า 60", patient: 121 }]
+                        { name: "> 60", patient: 121 }]
                 },]
         },
         {
@@ -3998,7 +3998,7 @@ const newData = {
                         { name: "หญิง", value: 618 },
                         { name: "ชาย", value: 567 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 108 },
+                        { name: "< 20", patient: 108 },
                         { name: "20- 24", patient: 123 },
                         { name: "25 - 29", patient: 122 },
                         { name: "30 - 34", patient: 152 },
@@ -4007,7 +4007,7 @@ const newData = {
                         { name: "45 - 49", patient: 107 },
                         { name: "50 - 54", patient: 125 },
                         { name: "55 - 59", patient: 101 },
-                        { name: "มากกว่า 60", patient: 100 }]
+                        { name: "> 60", patient: 100 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 612,
@@ -4015,7 +4015,7 @@ const newData = {
                         { name: "หญิง", value: 612 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 64 },
+                        { name: "< 20", patient: 64 },
                         { name: "20- 24", patient: 64 },
                         { name: "25 - 29", patient: 69 },
                         { name: "30 - 34", patient: 62 },
@@ -4024,7 +4024,7 @@ const newData = {
                         { name: "45 - 49", patient: 75 },
                         { name: "50 - 54", patient: 68 },
                         { name: "55 - 59", patient: 48 },
-                        { name: "มากกว่า 60", patient: 60 }]
+                        { name: "> 60", patient: 60 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1270,
@@ -4032,7 +4032,7 @@ const newData = {
                         { name: "หญิง", value: 667 },
                         { name: "ชาย", value: 603 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 100 },
+                        { name: "< 20", patient: 100 },
                         { name: "20- 24", patient: 142 },
                         { name: "25 - 29", patient: 131 },
                         { name: "30 - 34", patient: 154 },
@@ -4041,7 +4041,7 @@ const newData = {
                         { name: "45 - 49", patient: 128 },
                         { name: "50 - 54", patient: 142 },
                         { name: "55 - 59", patient: 120 },
-                        { name: "มากกว่า 60", patient: 106 }]
+                        { name: "> 60", patient: 106 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1223,
@@ -4049,7 +4049,7 @@ const newData = {
                         { name: "หญิง", value: 619 },
                         { name: "ชาย", value: 604 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 113 },
+                        { name: "< 20", patient: 113 },
                         { name: "20- 24", patient: 119 },
                         { name: "25 - 29", patient: 136 },
                         { name: "30 - 34", patient: 124 },
@@ -4058,7 +4058,7 @@ const newData = {
                         { name: "45 - 49", patient: 112 },
                         { name: "50 - 54", patient: 153 },
                         { name: "55 - 59", patient: 100 },
-                        { name: "มากกว่า 60", patient: 121 }]
+                        { name: "> 60", patient: 121 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1164,
@@ -4066,7 +4066,7 @@ const newData = {
                         { name: "หญิง", value: 584 },
                         { name: "ชาย", value: 580 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 131 },
+                        { name: "< 20", patient: 131 },
                         { name: "20- 24", patient: 135 },
                         { name: "25 - 29", patient: 107 },
                         { name: "30 - 34", patient: 131 },
@@ -4075,7 +4075,7 @@ const newData = {
                         { name: "45 - 49", patient: 119 },
                         { name: "50 - 54", patient: 94 },
                         { name: "55 - 59", patient: 130 },
-                        { name: "มากกว่า 60", patient: 116 }]
+                        { name: "> 60", patient: 116 }]
                 },]
         },
         {
@@ -4089,7 +4089,7 @@ const newData = {
                         { name: "หญิง", value: 600 },
                         { name: "ชาย", value: 631 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 141 },
+                        { name: "< 20", patient: 141 },
                         { name: "20- 24", patient: 110 },
                         { name: "25 - 29", patient: 125 },
                         { name: "30 - 34", patient: 114 },
@@ -4098,7 +4098,7 @@ const newData = {
                         { name: "45 - 49", patient: 117 },
                         { name: "50 - 54", patient: 122 },
                         { name: "55 - 59", patient: 124 },
-                        { name: "มากกว่า 60", patient: 143 }]
+                        { name: "> 60", patient: 143 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 629,
@@ -4106,7 +4106,7 @@ const newData = {
                         { name: "หญิง", value: 629 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 59 },
+                        { name: "< 20", patient: 59 },
                         { name: "20- 24", patient: 41 },
                         { name: "25 - 29", patient: 58 },
                         { name: "30 - 34", patient: 72 },
@@ -4115,7 +4115,7 @@ const newData = {
                         { name: "45 - 49", patient: 57 },
                         { name: "50 - 54", patient: 57 },
                         { name: "55 - 59", patient: 68 },
-                        { name: "มากกว่า 60", patient: 64 }]
+                        { name: "> 60", patient: 64 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1146,
@@ -4123,7 +4123,7 @@ const newData = {
                         { name: "หญิง", value: 555 },
                         { name: "ชาย", value: 591 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 108 },
+                        { name: "< 20", patient: 108 },
                         { name: "20- 24", patient: 113 },
                         { name: "25 - 29", patient: 113 },
                         { name: "30 - 34", patient: 122 },
@@ -4132,7 +4132,7 @@ const newData = {
                         { name: "45 - 49", patient: 105 },
                         { name: "50 - 54", patient: 95 },
                         { name: "55 - 59", patient: 132 },
-                        { name: "มากกว่า 60", patient: 146 }]
+                        { name: "> 60", patient: 146 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1240,
@@ -4140,7 +4140,7 @@ const newData = {
                         { name: "หญิง", value: 622 },
                         { name: "ชาย", value: 618 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 118 },
+                        { name: "< 20", patient: 118 },
                         { name: "20- 24", patient: 120 },
                         { name: "25 - 29", patient: 113 },
                         { name: "30 - 34", patient: 140 },
@@ -4149,7 +4149,7 @@ const newData = {
                         { name: "45 - 49", patient: 148 },
                         { name: "50 - 54", patient: 101 },
                         { name: "55 - 59", patient: 130 },
-                        { name: "มากกว่า 60", patient: 110 }]
+                        { name: "> 60", patient: 110 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1189,
@@ -4157,7 +4157,7 @@ const newData = {
                         { name: "หญิง", value: 609 },
                         { name: "ชาย", value: 580 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 133 },
+                        { name: "< 20", patient: 133 },
                         { name: "20- 24", patient: 121 },
                         { name: "25 - 29", patient: 132 },
                         { name: "30 - 34", patient: 126 },
@@ -4166,7 +4166,7 @@ const newData = {
                         { name: "45 - 49", patient: 106 },
                         { name: "50 - 54", patient: 121 },
                         { name: "55 - 59", patient: 128 },
-                        { name: "มากกว่า 60", patient: 98 }]
+                        { name: "> 60", patient: 98 }]
                 },]
         },
         {
@@ -4180,7 +4180,7 @@ const newData = {
                         { name: "หญิง", value: 548 },
                         { name: "ชาย", value: 513 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 93 },
+                        { name: "< 20", patient: 93 },
                         { name: "20- 24", patient: 112 },
                         { name: "25 - 29", patient: 131 },
                         { name: "30 - 34", patient: 105 },
@@ -4189,7 +4189,7 @@ const newData = {
                         { name: "45 - 49", patient: 94 },
                         { name: "50 - 54", patient: 115 },
                         { name: "55 - 59", patient: 93 },
-                        { name: "มากกว่า 60", patient: 96 }]
+                        { name: "> 60", patient: 96 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 623,
@@ -4197,7 +4197,7 @@ const newData = {
                         { name: "หญิง", value: 623 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 79 },
+                        { name: "< 20", patient: 79 },
                         { name: "20- 24", patient: 44 },
                         { name: "25 - 29", patient: 57 },
                         { name: "30 - 34", patient: 65 },
@@ -4206,7 +4206,7 @@ const newData = {
                         { name: "45 - 49", patient: 64 },
                         { name: "50 - 54", patient: 63 },
                         { name: "55 - 59", patient: 68 },
-                        { name: "มากกว่า 60", patient: 43 }]
+                        { name: "> 60", patient: 43 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1185,
@@ -4214,7 +4214,7 @@ const newData = {
                         { name: "หญิง", value: 614 },
                         { name: "ชาย", value: 571 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 111 },
+                        { name: "< 20", patient: 111 },
                         { name: "20- 24", patient: 116 },
                         { name: "25 - 29", patient: 121 },
                         { name: "30 - 34", patient: 122 },
@@ -4223,7 +4223,7 @@ const newData = {
                         { name: "45 - 49", patient: 123 },
                         { name: "50 - 54", patient: 120 },
                         { name: "55 - 59", patient: 126 },
-                        { name: "มากกว่า 60", patient: 127 }]
+                        { name: "> 60", patient: 127 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1162,
@@ -4231,7 +4231,7 @@ const newData = {
                         { name: "หญิง", value: 603 },
                         { name: "ชาย", value: 559 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 109 },
+                        { name: "< 20", patient: 109 },
                         { name: "20- 24", patient: 103 },
                         { name: "25 - 29", patient: 127 },
                         { name: "30 - 34", patient: 134 },
@@ -4240,7 +4240,7 @@ const newData = {
                         { name: "45 - 49", patient: 130 },
                         { name: "50 - 54", patient: 92 },
                         { name: "55 - 59", patient: 136 },
-                        { name: "มากกว่า 60", patient: 129 }]
+                        { name: "> 60", patient: 129 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1249,
@@ -4248,7 +4248,7 @@ const newData = {
                         { name: "หญิง", value: 636 },
                         { name: "ชาย", value: 613 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 131 },
+                        { name: "< 20", patient: 131 },
                         { name: "20- 24", patient: 126 },
                         { name: "25 - 29", patient: 126 },
                         { name: "30 - 34", patient: 136 },
@@ -4257,7 +4257,7 @@ const newData = {
                         { name: "45 - 49", patient: 110 },
                         { name: "50 - 54", patient: 133 },
                         { name: "55 - 59", patient: 118 },
-                        { name: "มากกว่า 60", patient: 123 }]
+                        { name: "> 60", patient: 123 }]
                 },]
         },
         {
@@ -4271,7 +4271,7 @@ const newData = {
                         { name: "หญิง", value: 593 },
                         { name: "ชาย", value: 605 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 128 },
+                        { name: "< 20", patient: 128 },
                         { name: "20- 24", patient: 100 },
                         { name: "25 - 29", patient: 118 },
                         { name: "30 - 34", patient: 105 },
@@ -4280,7 +4280,7 @@ const newData = {
                         { name: "45 - 49", patient: 121 },
                         { name: "50 - 54", patient: 126 },
                         { name: "55 - 59", patient: 104 },
-                        { name: "มากกว่า 60", patient: 136 }]
+                        { name: "> 60", patient: 136 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 637,
@@ -4288,7 +4288,7 @@ const newData = {
                         { name: "หญิง", value: 637 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 67 },
+                        { name: "< 20", patient: 67 },
                         { name: "20- 24", patient: 48 },
                         { name: "25 - 29", patient: 69 },
                         { name: "30 - 34", patient: 63 },
@@ -4297,7 +4297,7 @@ const newData = {
                         { name: "45 - 49", patient: 62 },
                         { name: "50 - 54", patient: 52 },
                         { name: "55 - 59", patient: 59 },
-                        { name: "มากกว่า 60", patient: 71 }]
+                        { name: "> 60", patient: 71 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1268,
@@ -4305,7 +4305,7 @@ const newData = {
                         { name: "หญิง", value: 664 },
                         { name: "ชาย", value: 604 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 132 },
+                        { name: "< 20", patient: 132 },
                         { name: "20- 24", patient: 118 },
                         { name: "25 - 29", patient: 136 },
                         { name: "30 - 34", patient: 123 },
@@ -4314,7 +4314,7 @@ const newData = {
                         { name: "45 - 49", patient: 146 },
                         { name: "50 - 54", patient: 109 },
                         { name: "55 - 59", patient: 110 },
-                        { name: "มากกว่า 60", patient: 100 }]
+                        { name: "> 60", patient: 100 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1205,
@@ -4322,7 +4322,7 @@ const newData = {
                         { name: "หญิง", value: 633 },
                         { name: "ชาย", value: 572 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 139 },
+                        { name: "< 20", patient: 139 },
                         { name: "20- 24", patient: 107 },
                         { name: "25 - 29", patient: 110 },
                         { name: "30 - 34", patient: 142 },
@@ -4331,7 +4331,7 @@ const newData = {
                         { name: "45 - 49", patient: 99 },
                         { name: "50 - 54", patient: 124 },
                         { name: "55 - 59", patient: 120 },
-                        { name: "มากกว่า 60", patient: 130 }]
+                        { name: "> 60", patient: 130 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1226,
@@ -4339,7 +4339,7 @@ const newData = {
                         { name: "หญิง", value: 625 },
                         { name: "ชาย", value: 601 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 132 },
+                        { name: "< 20", patient: 132 },
                         { name: "20- 24", patient: 124 },
                         { name: "25 - 29", patient: 131 },
                         { name: "30 - 34", patient: 150 },
@@ -4348,7 +4348,7 @@ const newData = {
                         { name: "45 - 49", patient: 140 },
                         { name: "50 - 54", patient: 123 },
                         { name: "55 - 59", patient: 122 },
-                        { name: "มากกว่า 60", patient: 106 }]
+                        { name: "> 60", patient: 106 }]
                 },]
         },
         {
@@ -4362,7 +4362,7 @@ const newData = {
                         { name: "หญิง", value: 591 },
                         { name: "ชาย", value: 630 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 115 },
+                        { name: "< 20", patient: 115 },
                         { name: "20- 24", patient: 141 },
                         { name: "25 - 29", patient: 126 },
                         { name: "30 - 34", patient: 102 },
@@ -4371,7 +4371,7 @@ const newData = {
                         { name: "45 - 49", patient: 118 },
                         { name: "50 - 54", patient: 112 },
                         { name: "55 - 59", patient: 145 },
-                        { name: "มากกว่า 60", patient: 119 }]
+                        { name: "> 60", patient: 119 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 588,
@@ -4379,7 +4379,7 @@ const newData = {
                         { name: "หญิง", value: 558 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 61 },
+                        { name: "< 20", patient: 61 },
                         { name: "20- 24", patient: 57 },
                         { name: "25 - 29", patient: 61 },
                         { name: "30 - 34", patient: 58 },
@@ -4388,7 +4388,7 @@ const newData = {
                         { name: "45 - 49", patient: 45 },
                         { name: "50 - 54", patient: 64 },
                         { name: "55 - 59", patient: 40 },
-                        { name: "มากกว่า 60", patient: 78 }]
+                        { name: "> 60", patient: 78 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1192,
@@ -4396,7 +4396,7 @@ const newData = {
                         { name: "หญิง", value: 583 },
                         { name: "ชาย", value: 609 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 119 },
+                        { name: "< 20", patient: 119 },
                         { name: "20- 24", patient: 96 },
                         { name: "25 - 29", patient: 130 },
                         { name: "30 - 34", patient: 123 },
@@ -4405,7 +4405,7 @@ const newData = {
                         { name: "45 - 49", patient: 127 },
                         { name: "50 - 54", patient: 126 },
                         { name: "55 - 59", patient: 126 },
-                        { name: "มากกว่า 60", patient: 123 }]
+                        { name: "> 60", patient: 123 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1242,
@@ -4413,7 +4413,7 @@ const newData = {
                         { name: "หญิง", value: 600 },
                         { name: "ชาย", value: 642 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 119 },
+                        { name: "< 20", patient: 119 },
                         { name: "20- 24", patient: 107 },
                         { name: "25 - 29", patient: 126 },
                         { name: "30 - 34", patient: 156 },
@@ -4422,7 +4422,7 @@ const newData = {
                         { name: "45 - 49", patient: 136 },
                         { name: "50 - 54", patient: 124 },
                         { name: "55 - 59", patient: 128 },
-                        { name: "มากกว่า 60", patient: 126 }]
+                        { name: "> 60", patient: 126 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1214,
@@ -4430,7 +4430,7 @@ const newData = {
                         { name: "หญิง", value: 623 },
                         { name: "ชาย", value: 591 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 134 },
+                        { name: "< 20", patient: 134 },
                         { name: "20- 24", patient: 113 },
                         { name: "25 - 29", patient: 116 },
                         { name: "30 - 34", patient: 123 },
@@ -4439,7 +4439,7 @@ const newData = {
                         { name: "45 - 49", patient: 133 },
                         { name: "50 - 54", patient: 115 },
                         { name: "55 - 59", patient: 104 },
-                        { name: "มากกว่า 60", patient: 124 }]
+                        { name: "> 60", patient: 124 }]
                 },]
         },
         {
@@ -4453,7 +4453,7 @@ const newData = {
                         { name: "หญิง", value: 543 },
                         { name: "ชาย", value: 564 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 109 },
+                        { name: "< 20", patient: 109 },
                         { name: "20- 24", patient: 120 },
                         { name: "25 - 29", patient: 110 },
                         { name: "30 - 34", patient: 128 },
@@ -4462,7 +4462,7 @@ const newData = {
                         { name: "45 - 49", patient: 90 },
                         { name: "50 - 54", patient: 108 },
                         { name: "55 - 59", patient: 99 },
-                        { name: "มากกว่า 60", patient: 105 }]
+                        { name: "> 60", patient: 105 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 579,
@@ -4470,7 +4470,7 @@ const newData = {
                         { name: "หญิง", value: 579 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 71 },
+                        { name: "< 20", patient: 71 },
                         { name: "20- 24", patient: 58 },
                         { name: "25 - 29", patient: 59 },
                         { name: "30 - 34", patient: 67 },
@@ -4479,7 +4479,7 @@ const newData = {
                         { name: "45 - 49", patient: 66 },
                         { name: "50 - 54", patient: 47 },
                         { name: "55 - 59", patient: 59 },
-                        { name: "มากกว่า 60", patient: 51 }]
+                        { name: "> 60", patient: 51 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1246,
@@ -4487,7 +4487,7 @@ const newData = {
                         { name: "หญิง", value: 649 },
                         { name: "ชาย", value: 597 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 134 },
+                        { name: "< 20", patient: 134 },
                         { name: "20- 24", patient: 105 },
                         { name: "25 - 29", patient: 114 },
                         { name: "30 - 34", patient: 122 },
@@ -4496,7 +4496,7 @@ const newData = {
                         { name: "45 - 49", patient: 102 },
                         { name: "50 - 54", patient: 133 },
                         { name: "55 - 59", patient: 134 },
-                        { name: "มากกว่า 60", patient: 135 }]
+                        { name: "> 60", patient: 135 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1154,
@@ -4504,7 +4504,7 @@ const newData = {
                         { name: "หญิง", value: 558 },
                         { name: "ชาย", value: 596 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 119 },
+                        { name: "< 20", patient: 119 },
                         { name: "20- 24", patient: 116 },
                         { name: "25 - 29", patient: 102 },
                         { name: "30 - 34", patient: 107 },
@@ -4513,7 +4513,7 @@ const newData = {
                         { name: "45 - 49", patient: 100 },
                         { name: "50 - 54", patient: 116 },
                         { name: "55 - 59", patient: 127 },
-                        { name: "มากกว่า 60", patient: 115 }]
+                        { name: "> 60", patient: 115 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1231,
@@ -4521,7 +4521,7 @@ const newData = {
                         { name: "หญิง", value: 602 },
                         { name: "ชาย", value: 629 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 129 },
+                        { name: "< 20", patient: 129 },
                         { name: "20- 24", patient: 115 },
                         { name: "25 - 29", patient: 140 },
                         { name: "30 - 34", patient: 137 },
@@ -4530,7 +4530,7 @@ const newData = {
                         { name: "45 - 49", patient: 133 },
                         { name: "50 - 54", patient: 114 },
                         { name: "55 - 59", patient: 114 },
-                        { name: "มากกว่า 60", patient: 105 }]
+                        { name: "> 60", patient: 105 }]
                 },]
         },
         {
@@ -4544,7 +4544,7 @@ const newData = {
                         { name: "หญิง", value: 570 },
                         { name: "ชาย", value: 567 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 125 },
+                        { name: "< 20", patient: 125 },
                         { name: "20- 24", patient: 119 },
                         { name: "25 - 29", patient: 106 },
                         { name: "30 - 34", patient: 124 },
@@ -4553,7 +4553,7 @@ const newData = {
                         { name: "45 - 49", patient: 109 },
                         { name: "50 - 54", patient: 94 },
                         { name: "55 - 59", patient: 123 },
-                        { name: "มากกว่า 60", patient: 115 }]
+                        { name: "> 60", patient: 115 }]
                 },
                 {
                     name: "กลุ่มโรคโลหิตระดูสตรี", value: 605,
@@ -4561,7 +4561,7 @@ const newData = {
                         { name: "หญิง", value: 605 },
                         { name: "ชาย", value: 0 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 57 },
+                        { name: "< 20", patient: 57 },
                         { name: "20- 24", patient: 43 },
                         { name: "25 - 29", patient: 84 },
                         { name: "30 - 34", patient: 62 },
@@ -4570,7 +4570,7 @@ const newData = {
                         { name: "45 - 49", patient: 58 },
                         { name: "50 - 54", patient: 56 },
                         { name: "55 - 59", patient: 50 },
-                        { name: "มากกว่า 60", patient: 66 }]
+                        { name: "> 60", patient: 66 }]
                 },
                 {
                     name: "กลุ่มอาการท้องอืด/ท้องเฟ้อ", value: 1264,
@@ -4578,7 +4578,7 @@ const newData = {
                         { name: "หญิง", value: 631 },
                         { name: "ชาย", value: 633 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 107 },
+                        { name: "< 20", patient: 107 },
                         { name: "20- 24", patient: 129 },
                         { name: "25 - 29", patient: 111 },
                         { name: "30 - 34", patient: 135 },
@@ -4587,7 +4587,7 @@ const newData = {
                         { name: "45 - 49", patient: 149 },
                         { name: "50 - 54", patient: 115 },
                         { name: "55 - 59", patient: 140 },
-                        { name: "มากกว่า 60", patient: 138 }]
+                        { name: "> 60", patient: 138 }]
                 },
                 {
                     name: "กลุ่มอาการผดผื่น", value: 1228,
@@ -4595,7 +4595,7 @@ const newData = {
                         { name: "หญิง", value: 636 },
                         { name: "ชาย", value: 592 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 122 },
+                        { name: "< 20", patient: 122 },
                         { name: "20- 24", patient: 138 },
                         { name: "25 - 29", patient: 125 },
                         { name: "30 - 34", patient: 118 },
@@ -4604,7 +4604,7 @@ const newData = {
                         { name: "45 - 49", patient: 106 },
                         { name: "50 - 54", patient: 110 },
                         { name: "55 - 59", patient: 124 },
-                        { name: "มากกว่า 60", patient: 115 }]
+                        { name: "> 60", patient: 115 }]
                 },
                 {
                     name: "กลุ่มระบบกล้ามเนื้อและกระดูก", value: 1190,
@@ -4612,7 +4612,7 @@ const newData = {
                         { name: "หญิง", value: 600 },
                         { name: "ชาย", value: 590 }],
                     age: [
-                        { name: "น้อยกว่า 20", patient: 131 },
+                        { name: "< 20", patient: 131 },
                         { name: "20- 24", patient: 114 },
                         { name: "25 - 29", patient: 96 },
                         { name: "30 - 34", patient: 132 },
@@ -4621,7 +4621,7 @@ const newData = {
                         { name: "45 - 49", patient: 123 },
                         { name: "50 - 54", patient: 132 },
                         { name: "55 - 59", patient: 118 },
-                        { name: "มากกว่า 60", patient: 97 }]
+                        { name: "> 60", patient: 97 }]
                 },]
         },
     ]
